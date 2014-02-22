@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Categories";
+}
+
+<h2>WebApi Client Categories with Ajax/JQuery in MVC View</h2>
+
+
+@section scripts
+{
+<script type="text/javascript">
+    $(document).ready(function () {
+        var $products = $("#categoriesection");
+        $.ajax({
+            type: "GET",
+            url: '@(new Uri("http://" + Request.Url.Authority + "/NorthWind/").ToString() + "API/category")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            error: function (request, status, error) {
+                alert(request.responseText);
+            },
+            success: function (data) {
+                //console.debug(data)
+                $.each(data, function (key, val) {
+                    $products.append("<tr><td>" + val.categoryID + "</td><td>" + val.categoryName + "</td><td>" + val.description + "</td></tr>");
+
+                });
+            }
+        })
+    });
+</script>
+}
+<table id="sortTableExample" class="table table-striped table-bordered table-hover table-condensed">
+    <thead style=" background-color: #006DCC; color: white;">
+        <tr>
+            <th>CategoryID</th>
+            <th>CategoryName</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody id="categoriesection"></tbody>
+</table>

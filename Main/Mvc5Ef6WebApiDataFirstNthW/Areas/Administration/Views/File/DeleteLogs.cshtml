@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "DeleteLogs";
+}
+
+<h2>Delete Logs</h2>
+@*@ViewBag.deletedFiles where deleted, excepted locked files: @ViewBag.lockedFiles*@
+
+<table border="1">
+    <tr>
+        <td>Files deleted</td>
+    </tr>
+    @foreach (var file in ViewData["deletedFiles"] as List<string>)
+{
+    <tr>
+        <td>@file</td>
+    </tr>
+}
+</table>
+
+<table border="1">
+    <tr>
+        <td>Files locked</td>
+    </tr>
+    @foreach (var file in ViewData["lockedFiles"] as List<string>)
+{
+    <tr>
+        <td>@file</td>
+    </tr>
+}
+</table>
+
+

@@ -1,0 +1,105 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- Begin Modal -->
+@section scripts {
+    <script type="text/javascript">
+        $('#myModal').modal('show');
+    </script>
+}
+@Html.Partial("_ModalPartial")
+<!-- End Modal -->
+<div class="jumbotron">
+    <h1>NorthWind54</h1>
+    <p class="lead">
+        NorthWind revisited with <strong><abbr title="Active Server Page for .NET">ASP.NET</abbr> <abbr title="Model-View-Controller">MVC</abbr>5</strong>.
+    </p>
+    <p class="small alert alert-danger">When authentication is required: <strong>UserName="admin" Password="p@ssword"</strong></p>
+    <p class="text-right">[<span class="glyphicon glyphicon-print"></span> (pdf)]: <em>Signal printable to pdf, see <strong>PDF</strong> button appearing in nav bar.</em></p>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Code On <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="http://northwind54.codeplex.com/" target="_blank">Code on CodePlex</a></li>
+            <li><a href="https://github.com/jalvarez54/NorthWind54" target="_blank">Code on Github</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        Technologies
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>
+                        ASP.NET MVC5,
+                        Data base first,
+                        WebAPI2,
+                        Bootstrap 3,
+                        Razor,
+                        Razor helpers,
+                        Annotation and filters (CustomFiltersAttributes),
+                        Styles for printing,
+                        System diagnostics trace,
+                        JQuery,
+                        Ajax,
+                        Internationalization (us for neutral, fr),
+                        web.Config transformation,
+                        Error Handling,
+                        Helpers for tracing,
+                        Carousel,
+                        Area
+                    </p>
+                    <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                        Tools
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Elmah, log4net, Glimpse, rotativa
+                    <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                        Links
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="http://northwind54.codeplex.com/">Code on CodePlex</a></li>
+                        <li><a href="http://jalvarez54.wordpress.com/" target="_blank">My WordPress</a></li>
+                    </ul>
+                    <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="16b804df-ade5-4a81-a103-20da65ab9c08" name="UC MVC" linkedPackageId="12728dbb-5576-45e3-8916-958a09726870" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="017fb20c-240f-4bd7-a2f5-5d79e89138f0" name="Membre" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="64e3dfb7-13b3-46da-a948-b7f61b4141ab" />
+        <targetEnds>
+          <association Id="c4b49a38-aeed-49f2-b8ff-f0a01ea9ad8e" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="View" isLeaf="false" isAbstract="false">
+            <artifactMoniker Id="2e47c54b-8c10-4254-9090-b69010aab354" LastKnownName="View" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f9814ce3-ae6c-434b-87e6-3ab49ff54738" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d85ffadc-5c0f-4b27-854d-2c0bd7e91876" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4fccdea5-8dc6-4489-8bdf-cd16d3ef8331" name="View" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="39f1e948-6300-49b7-be24-6d2ed81f36b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bb8bdbb1-b159-4eff-8973-26f83274944f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <artifact Id="2e47c54b-8c10-4254-9090-b69010aab354" name="View" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5a4cf0ae-f40a-4412-9e43-fd1044af845e" />
+        <targetEnds>
+          <association Id="85dbb54e-13ab-4bca-9642-68717b20ee7c" isDerived="false" sourceEndRoleName="View" targetEndRoleName="Controller" isLeaf="false" isAbstract="false">
+            <artifactMoniker Id="14f8582d-c284-4892-9b36-f7856f32b856" LastKnownName="Controller" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2f04f802-8527-4a74-b43e-e2158f6ab789" name="View" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="17411bf0-56ec-43b8-9cd2-dc0fe5d8a82e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ba304ba-e158-406c-a84c-f243b09f5b3c" name="Controller" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c28751ca-52d4-4666-91f0-bc0c51eb18b4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e7cac5e6-b2bb-45ad-8f4a-197745650b2b" />
+          </association>
+        </targetEnds>
+      </artifact>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <artifact Id="14f8582d-c284-4892-9b36-f7856f32b856" name="Controller" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e9f52bb-1236-47d7-85a2-9de48217f796" />
+        <targetEnds>
+          <association Id="c3e3775f-1fb1-4d65-aee6-6f762c8bc3e5" isDerived="false" sourceEndRoleName="Controller" targetEndRoleName="Model" isLeaf="false" isAbstract="false">
+            <artifactMoniker Id="3ce21fb8-03b8-4303-932d-081cfbdac617" LastKnownName="Model" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c17433d-6b4b-4472-9a80-31f272169c0c" name="Controller" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c05acbf0-46eb-484f-b5d0-d2cf2ddf5379" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="10971457-e142-4b01-b8a2-7cfd739f58f5" name="Model" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9121fa19-0fbe-4094-9d46-0a2a8d02ab47" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8b429e3f-617e-468d-b8b4-0b3fecbded2b" />
+          </association>
+        </targetEnds>
+      </artifact>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <artifact Id="3ce21fb8-03b8-4303-932d-081cfbdac617" name="Model" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e441ed7d-9027-48e9-b485-df9d3a35c87b" />
+      </artifact>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="12728dbb-5576-45e3-8916-958a09726870" name="ModelingProject">
+    <elementDefinition Id="c1146d6d-f7df-4695-a7f7-5ffb70dee040" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d68d34e1-182a-4ae1-9df0-de6a9494c227">
+        <profileInstance Id="761c8b37-55d3-4a0b-90f4-c5c27728a173" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c5f762e0-6be8-4394-aed5-0248f1f90ef4">
+        <profileInstance Id="3842d2da-055a-43cd-bfbd-9a9003bc11c0" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="86cf997e-e97b-4b96-8b85-7a09c38598db">
+        <profileInstance Id="28f36bae-ad8c-4ab7-b073-7af2004d25a2" name="CSharpProfile">
+          <elementDefinition Id="9781e3ff-af43-414a-a2a8-2f28b4d6cc73" />
+        </profileInstance>
+        <elementDefinition Id="08635d40-97e4-4054-9412-4779f4cd50fc" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

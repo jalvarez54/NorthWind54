@@ -1,0 +1,33 @@
+﻿    <script type="text/javascript">
+        $(document).ready(function () {
+            var $products = $("#productsection");
+            $.ajax({
+                type: "GET",
+                url: 'http://localhost:5555/NorthWind/API/Product',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                error: function (request, status, error) {
+                    alert(request.responseText);
+                },
+                success: function (data) {
+                    //console.debug(data)
+                    $.each(data, function (key, val) {
+
+                        $products.append("<tr><td>" + val.productID + "</td><td>" + val.productName + "</td><td>" + val.unitPrice + "</td></tr>");
+
+                    });
+                }
+            })
+        });
+    </script>
+
+    <table id="sortTableExample" class="table table-striped table-bordered table-hover table-condensed tablesorter">
+        <thead style=" background-color: #006DCC; color: white;">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>UnitPrice</th>
+            </tr>
+        </thead>
+        <tbody id="productsection"></tbody>
+    </table>

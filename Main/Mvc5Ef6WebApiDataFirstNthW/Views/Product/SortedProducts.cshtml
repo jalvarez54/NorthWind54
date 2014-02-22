@@ -1,0 +1,193 @@
+﻿@*@model IEnumerable<Mvc5Ef6WebApiDataFirstNthW.Models.Product>*@
+@model PagedList.IPagedList<Mvc5Ef6WebApiDataFirstNthW.Models.Product>
+
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Products";
+    ViewBag.Description = "List of the products";
+}
+
+@section styles
+    {
+    <style type="text/css">
+        @@media print {
+            footer, #tdNotPrinted, #divNotPrinted, #pNotPrinted {
+                display: none;
+            }
+
+            @@page {
+                margin: 0cm;
+            }
+
+            header:after {
+                content: "www.smashing-winery.com";
+            }
+
+            header:before {
+                display: block;
+                content: "Thank you for printing our content at www.smashing-winery.com. Please check back soon for new offers on delicious wine from our winery.";
+                margin-bottom: 10px;
+                border: 1px solid #bbb;
+                padding: 3px 5px;
+                font-style: italic;
+            }
+        }
+    </style>
+}
+@section scripts
+{
+    @*http://mottie.github.io/tablesorter/docs/example-widget-filter.html*@
+    <script type="text/javascript">
+
+        var sorting = [[0, 0], [1, 0]];
+
+        // note: the square brackets around sorting are required!
+        $("table").trigger("sorton", [sorting]);
+        $("table#sortTableExample").tablesorter(
+            {
+                widthFixed: true,
+                showProcessing: true,
+                headers: {
+                    6: { sorter: false, filter: false },    // sort second column numerically
+
+                    9: { sorter: false, filter: false },      // disable first column
+                },
+                widgets: ["filter"],
+                widgetOptions: {
+                    // css class applied to the table row containing the filters & the inputs within that row
+                    filter_cssFilter: 'tablesorter-filter',
+
+                    // filter widget: If there are child rows in the table (rows with class name from "cssChildRow" option)
+                    // and this option is true and a match is found anywhere in the child row, then it will make that row
+                    // visible; default is false
+                    filter_childRows: false,
+
+                    // Set this option to true to use the filter to find text from the start of the column
+                    // So typing in "a" will find "albert" but not "frank", both have a's; default is false
+                    filter_startsWith: false,
+                },
+
+            });
+    </script>
+}
+
+<header></header>
+
+<h2>@ViewBag.Title</h2>
+@*<p id="pNotPrinted">
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<div class="table-responsive">
+    @*http://tablesorter.com/docs/*@
+    <table id="sortTableExample" class="table table-striped table-bordered table-hover table-condensed tablesorter">
+        @*<tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.QuantityPerUnit)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UnitPrice)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UnitsInStock)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UnitsOnOrder)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReorderLevel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Discontinued)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category.CategoryName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Supplier.CompanyName)
+                </th>
+                <th></th>
+            </tr>*@
+        <thead>
+            <tr>
+                <th data-placeholder="Exact matches only">
+                    @Html.DisplayNameFor(model => model.First().ProductName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().QuantityPerUnit)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().UnitPrice)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().UnitsInStock)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().UnitsOnOrder)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().ReorderLevel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Discontinued)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Category.CategoryName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Supplier.CompanyName)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.QuantityPerUnit)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitsInStock)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitsOnOrder)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReorderLevel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Discontinued)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Supplier.CompanyName)
+                    </td>
+                    @*<td id="tdNotPrinted">
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ProductID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ProductID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ProductID })
+                    </td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <div id="divNotPrinted">
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("SortedProducts", new { page }))
+    </div>
+</div>

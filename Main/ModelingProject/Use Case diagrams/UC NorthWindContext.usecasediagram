@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="0463996c-9a35-474e-a30c-c821e9fa4e64" name="UC NorthWindContext" linkedPackageId="c615ec36-fcc4-4802-8157-55a72268bb4e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="c15065d9-02e8-4d46-b325-386656d47117">
+      <profileInstance Id="55af2308-c1a2-4cd1-855d-1ec81c56e7ed" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d8660851-c4d5-4f8a-ab69-ca6ff8dc0508">
+      <profileInstance Id="243af476-cef0-470a-8b6c-93baca2ae57a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="afd131d5-a870-4176-b161-0ceda9871b32">
+      <profileInstance Id="a78ecaba-efc7-4015-a82a-bd998df88e9c" name="CSharpProfile">
+        <elementDefinition Id="9781e3ff-af43-414a-a2a8-2f28b4d6cc73" />
+      </profileInstance>
+      <elementDefinition Id="08635d40-97e4-4054-9412-4779f4cd50fc" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="febec61d-34cd-4c6d-a011-2ec3835c580c" name="Member" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="64e3dfb7-13b3-46da-a948-b7f61b4141ab" />
+        <generalsInternal>
+          <generalization Id="8587a4f0-20db-48f0-b868-e01b7cbf45d3" isSubstitutable="false">
+            <actorMoniker Id="b9da9bf2-528a-434e-b609-70d0f3a94353" LastKnownName="Guess" />
+            <elementDefinition Id="6e5343fb-8a7b-4dd4-8ba0-09d858ed0875" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="346f041e-5736-4c24-a864-e9f1a5424c0e" isDerived="false" sourceEndRoleName="Member" targetEndRoleName="UC - Get members pages" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b869ee78-6368-47f2-a774-0727c2f5264b" LastKnownName="UC - Get members pages" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0087bdd5-382a-4944-8aa4-2217894f141c" name="Member" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f43f89d7-fe56-4be8-a340-799267d5fadf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1cf6a61-f455-4ec8-a99b-c43e8a58ae47" name="UC - Get members pages" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7a557456-c4b1-4bfb-98e0-863bcd07ca4d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b7ce35ff-6946-47d6-baeb-d2c2b4aaf746" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="42d47232-50ba-4271-bed4-97fbdd0ea93d" name="Admin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fca17908-1623-4d73-8ce8-187b35f81a6d" />
+        <generalsInternal>
+          <generalization Id="e463f4e7-9fcf-4117-b32b-0158525d6e6e" isSubstitutable="false">
+            <actorMoniker Id="febec61d-34cd-4c6d-a011-2ec3835c580c" LastKnownName="Member" />
+            <elementDefinition Id="2594d349-c857-4c2a-b8d2-a0c69cc96346" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="437f84ec-950b-417b-b0fd-a6bb4b89fdf5" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="UC - Get admin pages" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9bd9deeb-1bb4-4b41-973e-c9ccecdbc135" LastKnownName="UC - Get admin pages" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="721c6706-b868-476f-8e29-4b0a4f87fc09" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="42f9563d-e24e-4d1e-9c93-19d9d6d39aa9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a1e406fd-de38-4c2b-b698-e0969b869f2a" name="UC - Get admin pages" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f3399d47-e84c-417b-aa22-6752ad0bcc81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="39f27d9e-7322-4253-a92c-afc1f58e2b47" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="fc31a6b5-bf7a-4e93-8391-d314614f7891" name="Subsystem-NorthWind" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7ba5bd71-c693-4236-ac18-1a366a5dc307" name="NorthWind DataBase" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="af5b06e4-fa55-4cdb-b59c-ac8bd69b2403" />
+        <targetEnds>
+          <association Id="9feb6880-74cc-4226-9926-0077b9433429" isDerived="false" sourceEndRoleName="NorthWind DataBase" targetEndRoleName="UC- Get guess pages" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4ad3c8ac-0a61-492b-b1b7-ce6f20b8db97" LastKnownName="UC- Get guess pages" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d439b519-40b7-477a-931a-4d2eaa28a7e5" name="NorthWind DataBase" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a28ffa1d-b007-4066-8c00-209bd2667636" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="927cba17-f24b-45af-aba1-343a183316c1" name="UC- Get guess pages" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ab37223d-be89-4020-a007-271c4d5ac2ea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c14d5210-495c-45c9-9ce7-27d20381690f" />
+          </association>
+          <association Id="cd584dc3-a6af-4676-a042-bea8719fffb5" isDerived="false" sourceEndRoleName="NorthWind DataBase" targetEndRoleName="UC - Get members pages" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b869ee78-6368-47f2-a774-0727c2f5264b" LastKnownName="UC - Get members pages" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="247cb52c-eb17-4036-8202-8d3003bda7bb" name="NorthWind DataBase" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="81b85dd3-504f-429b-ab78-cd78830ff659" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3ea14b81-9614-430b-bf64-08cf472f7983" name="UC - Get members pages" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="26a35b5d-79eb-43fb-8c54-3d7e2caaffac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5ef3beac-786f-4b7f-8d1f-1e20e8a32eb4" />
+          </association>
+          <association Id="acc4828f-6144-495e-a226-c143eab7af90" isDerived="false" sourceEndRoleName="NorthWind DataBase" targetEndRoleName="UC - Get admin pages" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9bd9deeb-1bb4-4b41-973e-c9ccecdbc135" LastKnownName="UC - Get admin pages" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b1c12784-0f96-4bbc-8893-3a1c53ec4dcf" name="NorthWind DataBase" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fbcc13bf-ef7b-453c-806b-6228a01fda52" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="da14fedd-d8d3-4fed-be6b-48743ce59290" name="UC - Get admin pages" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="48aee659-8f8f-426f-b5ab-057464314e3c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d7e6a8ad-7b06-4cb1-87e9-5916652aaeb3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="1cca07f8-afb7-4181-a49b-51303a107435" name="NorthWindUsers DataBase" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9d3f4f0b-573c-4770-9676-8bf2309748cb" />
+        <targetEnds>
+          <association Id="bf605776-7492-4017-8374-a9396eb8088e" isDerived="false" sourceEndRoleName="NorthWindUsers DataBase" targetEndRoleName="UC - Authenticat" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4431a0cf-eb18-4cb6-aeef-4483bbadf84b" LastKnownName="UC - Authenticat" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5053fa9c-4ef7-43a9-8df9-064008102da6" name="NorthWindUsers DataBase" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a191cc1c-cc80-47d5-ab34-19625f661736" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="438948ee-6470-430b-916b-9e49201f2a29" name="UC - Authenticat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c25d058b-491d-405f-ab80-a5f56216a2ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a1cd6084-23c5-45f8-a71e-ebe8bec7d372" />
+          </association>
+          <association Id="942945d3-6ae6-49fd-bfb4-e4e94796b17f" isDerived="false" sourceEndRoleName="NorthWindUsers DataBase" targetEndRoleName="UC - Register" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fc8ac63b-25d8-4c8b-abf5-66fb8e94f805" LastKnownName="UC - Register" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="64e0be4d-dd1a-436d-9264-6f7cfbbb103f" name="NorthWindUsers DataBase" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4a0387a9-c0ff-4fa3-98fb-908919f8a854" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4feb14b6-93bc-4352-bbdf-df79aceb9cc6" name="UC - Register" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b6806ffb-ea25-41bf-b74d-dae75b232b4c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c8dc5217-07e2-40fd-a26e-e42fd1c7e62c" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="4ad3c8ac-0a61-492b-b1b7-ce6f20b8db97" name="UC- Get guess pages" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2c0cb8e8-a447-45d0-ac4d-d02369dd2d72" />
+        <subjects>
+          <subsystemMoniker Id="fc31a6b5-bf7a-4e93-8391-d314614f7891" LastKnownName="Subsystem-NorthWind" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9bd9deeb-1bb4-4b41-973e-c9ccecdbc135" name="UC - Get admin pages" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b20d45e8-4f8b-4592-87d4-6faa111f06ad" />
+        <additions>
+          <include Id="1736b9af-695a-4558-9455-5ae55c62d50d">
+            <useCaseMoniker Id="4431a0cf-eb18-4cb6-aeef-4483bbadf84b" LastKnownName="UC - Authenticat" />
+            <elementDefinition Id="58ca1f16-533c-4946-835b-8725f4902608" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="fc31a6b5-bf7a-4e93-8391-d314614f7891" LastKnownName="Subsystem-NorthWind" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b869ee78-6368-47f2-a774-0727c2f5264b" name="UC - Get members pages" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f8bc7ba4-7e9a-481f-a8a0-9957c5b03da5" />
+        <additions>
+          <include Id="952978f8-6c22-451c-a6e0-f06d5376eebc">
+            <useCaseMoniker Id="4431a0cf-eb18-4cb6-aeef-4483bbadf84b" LastKnownName="UC - Authenticat" />
+            <elementDefinition Id="2165d39f-8b23-4222-b0b7-46cde45184a9" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="fc31a6b5-bf7a-4e93-8391-d314614f7891" LastKnownName="Subsystem-NorthWind" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="b9da9bf2-528a-434e-b609-70d0f3a94353" name="Guess" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0adb8516-7564-4089-8473-ba884ca81040" />
+        <targetEnds>
+          <association Id="b026d010-d96b-4d8d-9eb3-37a3f0f49deb" isDerived="false" sourceEndRoleName="Guess" targetEndRoleName="UC- Get guess pages" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4ad3c8ac-0a61-492b-b1b7-ce6f20b8db97" LastKnownName="UC- Get guess pages" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dda8b6d4-a3ef-4e0c-9873-ae099022de36" name="Guess" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6f275bf4-356e-46f9-a1e6-dadfdad646f6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0c14a678-865f-4b22-8cb0-0d208f4dd7ed" name="UC- Get guess pages" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f44939f0-f743-48ec-8909-b00d291f8f56" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="76689797-0d13-4f7e-b6b6-1613a2367f0a" />
+          </association>
+          <association Id="6e4e17ee-8723-4e16-8692-4bdc56aa77ae" isDerived="false" sourceEndRoleName="Guess" targetEndRoleName="UC - Register" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fc8ac63b-25d8-4c8b-abf5-66fb8e94f805" LastKnownName="UC - Register" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="19a776bd-7924-4d72-baf6-5c1495aadc9b" name="Guess" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fcf5b2c3-0545-438b-ac35-f024cfbe5abe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d618ba62-21e3-4cea-896d-4ba05bf31ed8" name="UC - Register" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c7f85ca6-ca9e-4bbd-a6d7-d2128d12b314" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7d504f92-45ba-493d-846d-40107df1f319" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="4431a0cf-eb18-4cb6-aeef-4483bbadf84b" name="UC - Authenticat" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fa6a2338-08e6-437b-b12e-22b233b886b2" />
+        <subjects>
+          <subsystemMoniker Id="fc31a6b5-bf7a-4e93-8391-d314614f7891" LastKnownName="Subsystem-NorthWind" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="fc8ac63b-25d8-4c8b-abf5-66fb8e94f805" name="UC - Register" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d578308f-e394-49ad-a219-42f6dc24b49e" />
+        <subjects>
+          <subsystemMoniker Id="fc31a6b5-bf7a-4e93-8391-d314614f7891" LastKnownName="Subsystem-NorthWind" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="c615ec36-fcc4-4802-8157-55a72268bb4e" name="NorthWindModelingProject">
+    <elementDefinition Id="c1146d6d-f7df-4695-a7f7-5ffb70dee040" />
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,114 @@
+﻿@using Mvc5Ef6WebApiDataFirstNthW.Helpers
+
+@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<label>José ALVAREZ</label> 
+<summary>Ingénieur ESME Sudria</summary>
+<summary>Professeur Certifié en Génie Electrique (Electronique)</summary>
+<summary>Microsoft Certified Professional (MCP)</summary>
+<summary>Enseignant BTS Informatique et Réseaux (IRIS)</summary>
+<summary><a href="http://jalvarez54.wordpress.com/" target="_blank">My WordPress</a></summary>
+<hr />
+<label>@Utils.GetConfigCompanyName()</label>
+<address title="Click to see more details">@Utils.GetConfigCompanyAddress()</address>
+<abbr title="Phone">Tel. :</abbr>0383352714
+<abbr title="Fax">Fax :</abbr>0383352612
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Source code
+            </a>
+        </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+        <div class="panel-body">
+            <pre style="font-family:Consolas;font-size:13;color:black;background:white;"><span style="color:blue;">&lt;</span><span style="color:maroon;">script</span>&nbsp;<span style="color:red;">type</span><span style="color:blue;">=</span><span style="color:blue;">&quot;text/javascript&quot;</span><span style="color:blue;">&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;$(document).ready(<span style="color:blue;">function</span>&nbsp;()&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;geocoder&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.Geocoder();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;infowindow&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.InfoWindow();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;latlng&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.LatLng(-34.397,&nbsp;150.644);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;mapOptions&nbsp;=&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zoom:&nbsp;15,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;center:&nbsp;latlng
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;map&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.Map(document.getElementById(<span style="color:#a31515;">&quot;map-canvas&quot;</span>),&nbsp;mapOptions);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;address&nbsp;=&nbsp;$(<span style="color:#a31515;">&#39;address&#39;</span>).text();
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;geocoder.geocode({&nbsp;<span style="color:#a31515;">&#39;address&#39;</span>:&nbsp;address&nbsp;},&nbsp;<span style="color:blue;">function</span>&nbsp;(results,&nbsp;status)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">if</span>&nbsp;(status&nbsp;==&nbsp;google.maps.GeocoderStatus.OK)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;map.setCenter(results[0].geometry.location);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;marker&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.Marker({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;map:&nbsp;map,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position:&nbsp;results[0].geometry.location
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;infowindow.setContent(results[0].formatted_address);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;infowindow.open(map,&nbsp;marker);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span style="color:blue;">else</span>&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert(<span style="color:#a31515;">&quot;Geocode&nbsp;was&nbsp;not&nbsp;successful&nbsp;for&nbsp;the&nbsp;following&nbsp;reason:&nbsp;&quot;</span>&nbsp;+&nbsp;status);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:green;">//Convert&nbsp;address&nbsp;tags&nbsp;to&nbsp;google&nbsp;map&nbsp;links&nbsp;-&nbsp;Copyright&nbsp;Michael&nbsp;Jasper&nbsp;2011</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$(<span style="color:#a31515;">&#39;address&#39;</span>).each(<span style="color:blue;">function</span>&nbsp;()&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;link&nbsp;=&nbsp;<span style="color:#a31515;">&quot;&lt;a&nbsp;href=&#39;http://maps.google.com/maps?q=&quot;</span>&nbsp;+&nbsp;encodeURIComponent($(<span style="color:blue;">this</span>).text())&nbsp;+&nbsp;<span style="color:#a31515;">&quot;&#39;&nbsp;target=&#39;_blank&#39;&gt;&quot;</span>&nbsp;+&nbsp;$(<span style="color:blue;">this</span>).text()&nbsp;+&nbsp;<span style="color:#a31515;">&quot;&lt;/a&gt;&quot;</span>;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$(<span style="color:blue;">this</span>).html(link);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;});
+</pre>
+            <pre style="font-family:Consolas;font-size:13;color:black;background:white;"><span style="color:blue;">&lt;</span><span style="color:maroon;">div</span>&nbsp;<span style="color:red;">id</span><span style="color:blue;">=</span><span style="color:blue;">&quot;map-canvas&quot;</span>&nbsp;<span style="color:red;">class</span><span style="color:blue;">=</span><span style="color:blue;">&quot;span12&quot;</span>&nbsp;<span style="color:red;">style</span><span style="color:blue;">=</span><span style="color:blue;">&quot;</span><span style="color:red;">display</span>:<span style="color:blue;">block</span>;<span style="color:red;">height</span>:<span style="color:blue;">400px</span>;<span style="color:blue;">&quot;</span>&nbsp;<span style="color:blue;">&gt;&lt;/</span><span style="color:maroon;">div</span><span style="color:blue;">&gt;</span>
+</pre>
+        </div>
+    </div>
+</div>
+
+    @*Company Google map based on address tag*@
+    <div id="map-canvas" class="span12" style="display:block;height:400px;" ></div>
+<hr />
+<label>Support</label>
+<summary><a href="mailto:jose.alvarez54@free.fr">jose.alvarez54@free.fr</a></summary>
+
+@section script_google
+{
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=@Utils.GetGoogleMapKey()"></script>
+}
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var geocoder = new google.maps.Geocoder();
+            var infowindow = new google.maps.InfoWindow();
+            var latlng = new google.maps.LatLng(-34.397, 150.644);
+            var mapOptions = {
+                zoom: 15,
+                center: latlng
+            }
+            var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+            var address = $('address').text();
+
+            geocoder.geocode({ 'address': address }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    map.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location
+                    });
+                    infowindow.setContent(results[0].formatted_address);
+                    infowindow.open(map, marker);
+                } else {
+                    alert("Geocode was not successful for the following reason: " + status);
+                }
+            });
+
+            //Convert address tags to google map links - Copyright Michael Jasper 2011
+            $('address').each(function () {
+                var link = "<a href='http://maps.google.com/maps?q=" + encodeURIComponent($(this).text()) + "' target='_blank'>" + $(this).text() + "</a>";
+                $(this).html(link);
+            });
+        });
+    </script>
+}
+
+

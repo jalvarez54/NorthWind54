@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Main Admin";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h3>Admin users</h3>
+<p>
+@Html.ActionLink("Users management", "Index", "Account", new { area = "" },null)
+</p>
+<hr />
+<h3>Clean logs</h3>
+<p>
+@Html.ActionLink("Clean logs", "DeleteLogs", "File", new { area = "Administration" },null)
+</p>
+<hr />
+@MyRazorHelpers.AdminInformations()
+
+
+

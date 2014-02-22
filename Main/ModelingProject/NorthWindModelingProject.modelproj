@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{405c75c0-b3ea-4876-9993-653bacf10a54}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>NorthWindModelingProject</Name>
+    <RootNamespace>ModelingProject</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Pre-Prod-Debug' ">
+    <OutputPath>bin\Pre-Prod-Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Pre-Prod-Release' ">
+    <OutputPath>bin\Pre-Prod-Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Dbg-Local' ">
+    <OutputPath>bin\Dbg-Local\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Rel-Nas' ">
+    <OutputPath>bin\Rel-Nas\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Rel-Dist' ">
+    <OutputPath>bin\Rel-Dist\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Dbg-Loc' ">
+    <OutputPath>bin\Dbg-Loc\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'dbgStaging' ">
+    <OutputPath>bin\dbgStaging\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Integration' ">
+    <OutputPath>bin\Integration\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Developement' ">
+    <OutputPath>bin\Developement\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="Class Diagrams\CD Home.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\CD Home.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\CD Home.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\CD MVC.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\CD MVC.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\CD MVC.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Class Diagrams\CD NorthWind.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Class Diagrams\CD NorthWind.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Class Diagrams\CD NorthWind.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Component diagrams\DC NorthWind.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Component diagrams\DC NorthWind.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Component diagrams\DC NorthWind.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0745.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2132.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2200.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2204.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2206.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_0745.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_2159.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_2204.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_0745.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_2159.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_2204.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_0745.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_2159.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_2159.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_2159.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0745.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0751.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0821.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1649.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2132.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2200.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2204.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2206.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2209.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence diagrams\SD Category.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequence diagrams\SD Category.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Sequence diagrams\SD Category.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Use Case diagrams\UC MVC.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Use Case diagrams\UC MVC.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Use Case diagrams\UC MVC.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Use Case diagrams\UC NorthWindContext.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Use Case diagrams\UC NorthWindContext.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Use Case diagrams\UC NorthWindContext.usecasediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ModelingProject.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Class Diagrams" />
+    <Folder Include="Layer diagrams" />
+    <Folder Include="Component diagrams" />
+    <Folder Include="Use Case diagrams" />
+    <Folder Include="Sequence diagrams" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mvc5Ef6WebApiDataFirstNthW\Mvc5Ef6WebApiDataFirstNthW.csproj">
+      <Name>Mvc5Ef6WebApiDataFirstNthW</Name>
+      <Project>{5f82b1df-2372-4bd4-bbc5-e86be5de9fff}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="Layer diagrams\LD NorthWind.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="Layer diagrams\LD NorthWind.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Layer diagrams\LD NorthWind.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="Layer diagrams\LD NorthWind.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>Layer diagrams\LD NorthWind.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+</Project>

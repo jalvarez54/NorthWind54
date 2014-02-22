@@ -1,0 +1,506 @@
+===========================================
+Version 18 = V1.2.5.5302 [1.1.Alpha]
+===========================================
+* ADD: Minor changes
+** Print button in navbar
+:: <a href="#" onclick="window.print()"> in _Layout
+** Pdf button in navbar
+:: @RenderSection("PrintToPdf" in _Layout
+:: @section PrintToPdf in Category and Product view
+:: public ActionResult IndexToPdf() in Category and Product controller
+:: view SortedProducts.cshtml
+* Mise à jour document technique
+===========================================
+Version 17 = V1.2.5.5277 [1.0.Alpha]
+===========================================
+* BUG: Correct routes bug in Administration Area.
+* MODIF: Integrate checkbox NoPhoto in model {EditUserViewModel} with {IsNoPhotoChecked} property, so removing {string[] noPhoto = HttpContext.Request.Form.GetValues("NoPhoto");}, replaced by {model.IsNoPhotoChecked}
+* ADD: Google map in contact.cshtml
+===========================================
+Version 17 = V1.2.5.5268
+===========================================
+* Refactoring and minor modifications code and design.
+* ADD: Image preview in Edit and Register Views.
+===========================================
+Version 16 = V1.2.4.5265
+===========================================
+* ADD: User can remove his photo
+** Add checkbox (@Html.CheckBox("NoPhoto", false, new { id = "NoPhoto" } No photo if checked) in Edit.cshtml
+** Add checkbox management in AccountController public async Task<ActionResult> Edit(EditUserViewModel model) method
+** Revisite SavePhotoFileToDisk
+* ADD: Photo Height x Width limitation in ValidateFileAttribute 150 x 200 px
+* Commented some code
+===========================================
+Version 15 = V1.2.3.5262
+===========================================
+* MODIFICATIONS: Minor changes in WebApiProducts.html and WebApiCategories.html
+* CHANGE: Project properties ==> http://localhost:5555/NorthWind
+* LINKS: Usefull links for IISEXPRESS
+    Cleaning up IIS Express Sites: http://blogs.msdn.com/b/scicoria/archive/2013/03/08/cleaning-up-iis-express-sites.aspx
+    IISExpress managment: https://iisem.codeplex.com/
+* ADD: Code Snippets [CatchHandledException.snippet, CatchHandledFatalException.snippet] for try/catch in handled and unhandled exception.
+To import see http://msdn.microsoft.com/en-us/library/vstudio/9ybhaktf%28v=vs.100%29.aspx
+* BUG: Correct bug in /helpers/Utils/SignalExceptionToElmahAndTrace static method.
+Delete line Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController mec = lui as Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController;
+* ADD: try/catch in /helpers/Utils/SavePhotoFileToDisk static method (non fatal handled exception ==> silent) if an error occur, a string.empty is returned no image will be showned to the user.
+===========================================
+Version 14 = V1.2.3.5260
+===========================================
+* BUG: In SavePhotoFileToDisk, when editing a user with photo, if we save, the user retreive BlankPhoto.jpg 
+    ===> corrected in public static string SavePhotoFileToDisk
+* ADD: Add new user to "User" role in public async Task<ActionResult> Register(RegisterViewModel model)
+* BUG: In EditView, Photo disappear if user entries are not validated 
+    ===> corrected in /helpers/Utils/SavePhotoFileToDisk
+if (photo != null)
+            {
+                fileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
+            }
+            else
+            {
+                if(oldPhotoUrl == null)
+                {
+                    fileName = "BlankPhoto.jpg";
+                }
+                else
+                {
+                    return oldPhotoUrl;
+                }
+            }
+===========================================
+Version 13 = V1.2.3.5258
+===========================================
+* REFACTORING: AccountController Edit and Register method
+** ADD: /Helpers/Utils/SavePhotoFileToDisk static method
+** CHANGE: Edit and Register calling model.PhotoUrl = Utils.SavePhotoFileToDisk(model.Photo, this);
+** MODIF: AccountController DeleteConfirmed method to dont delete BlankPhoto.jpg
+** CHANGE: HttpPostedFileWrapper Photo is no more [Required] in RegisterViewModel
+** ADD: Default photo (BlankPhoto.jpg)
+===========================================
+Version 12 = V1.2.2.5254
+===========================================
+* ADD: Delete photo when user is removed
+** MODIFIED: In AccountController DeleteConfirmed method
+                var user = Db.Users.First(u => u.UserName == id);
+                var path = Server.MapPath("~") + user.PhotoUrl;
+                FileInfo fi = new FileInfo(path);
+                if (fi.Exists)
+                    fi.Delete();
+                Db.Users.Remove(user);
+===========================================
+Version 11 = V1.2.2.5253
+===========================================
+* ADD: Validation DataAnnotation for upload file [ValidateFile]
+    ADD: Class ValidateFileAttribute : ValidationAttribute
+    ADD: Decoration [ValidateFile] for HttpPostedFileWrapper Photo preoperty in EditUserViewModel and RegisterUserViewModel
+    SIMPLIFIED: Register(RegisterViewModel model)
+    MODIFIED: <div class="form-group"> in Edit.cshtml and Register.cshtml
+===========================================
+Version 10 = V1.2.1.5247
+===========================================
+* ADD: User can change his profile
+** CHANGE: Manage.cshtml title from "Gérer le compte" to "Changer le mot de passe"
+** CHANGE: _LoginPartial.cshtml Action  link from "Manage"  to "Edit" and routeValues: from null to routeValues: new{id=User.Identity.GetUserName()}
+** CHANGE: AccountController.cs "Edit" DataAnnotation from [Authorize(Roles = "Admin")] to [Authorize]
+** ADD: In AccountController.cs "Edit" (HttpPost)
+                if(HttpContext.User.IsInRole("Admin"))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return RedirectToAction("Edit", new { id = user.UserName });
+                }
+===========================================
+Version 9 = V1.2.0.5229
+===========================================
+* ADD: User photo
+===========================================
+Version 8 = V1.1.0.5228
+===========================================
+* UPDATE: Forgot to upgrade database in App_Data
+===========================================
+Version 7 = V1.1.0.5220
+===========================================
+* ADD: Users and roles management
+    Source: [John Atten] http://www.codeproject.com/Articles/682113/Extending-Identity-Accounts-and-Implementing-Role
+* UPDATE: DT
+* ADD: SQL Scripts in Migrations folder
+    Initialisation Data Base.sql
+    Reset Initialisation Data Base.sql
+* UPDATE: Locals, Staging, Test Database
+===========================================
+Version 6 = V1.0.1.5214
+===========================================
+* REFACTORING:
+    MyRazorHelpers.cshtml
+    AssemblyInfo
+ADD: webApiUri to prevent CORS in html WebApi static clients
+ADD: <rewrite> in IKOULA eb.config root to rewite jow-alva.net to ww.jow-alva.net (another possibility for CORS)
+UPDATE: DT MVC.vsdx, App_Diagrams
+===========================================
+Version 5 = V1.0.0.0
+===========================================
+* AA: WebApiAdress setting to suppot multiple web.config 
+* ADD: FileController.cs
+* ADD: Utils
+* ADD: Razor helpers and HtmlHelpers for Categories view
+* Area/Administration
+* Install-Package Microsoft.AspNet.WebApi.HelpPage
+* Implémentation: ValuesController.cs
+    <!-* For WebApiHelpPage working with glimpse
+    http://stackoverflow.com/questions/17958959/asp-net-web-api-help-page-returning-empty-output
+    -->
+* Area/Northwind
+* Controleur:Product
+* Ajout dans WebApiConfig.cs:
+http://www.asp.net/web-api/overview/formats-and-model-binding/json-and-xml-serialization
+            var json = config.Formatters.JsonFormatter;
+            json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
+http://channel9.msdn.com/Forums/Coffeehouse/SystemNetHttpHttpContent-does-not-contain-a-definition-for-ReadAsAsync-and-no-extension-method
+http://www.kendoui.com/blogs/teamblog/posts/12-05-11/hello_services_webapi_rest_json_and_ajax.aspx
+//SERIALIZE WILL FAIL WITH PROXIED ENTITIES
+Solution aux problèmes d'EF et formattes:
+db.Configuration.ProxyCreationEnabled = false;
+Obtient ou définit une valeur booléenne qui détermine si des instances de proxy sont créées pour les classes de données personnalisées qui ignorent la persistance.
+If DbContext.Configuration.ProxyCreationEnabled is set to false, DbContext will not load child objects for some parent object unless Include method is called on parent object. Setting DbContext.Configuration.LazyLoadingEnabled to true or false will have no impact on its behaviours.
+
+If DbContext.Configuration.ProxyCreationEnabled is set to true, child objects will be loaded automatically, and DbContext.Configuration.LazyLoadingEnabled value will control when child objects are loaded.
+===========================================
+Version 3
+===========================================
+* Intégration des tables ASP.NET Identity dans la base NORTHWIND
+    <add name="DefaultConnection" 
+         connectionString="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\NORTHWND.MDF;
+         Initial Catalog=NORTHWND;
+         Integrated Security=True" 
+         providerName="System.Data.SqlClient" />
+* Install-Package Log4Net
+http://logging.apache.org/log4net/release/manual/configuration.html
+Ajout dans web.config
+  <log4net>
+    <appender name="Console" type="log4net.Appender.ConsoleAppender">
+      <layout type="log4net.Layout.PatternLayout">
+        <!-* Pattern to output the caller's file name and line number -->
+        <conversionPattern value="%5level [%thread] (%file:%line) * %message%newline" />
+      </layout>
+    </appender>
+
+    <appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
+      <file value="App_Data/example.log" />
+      <appendToFile value="true" />
+      <maximumFileSize value="100KB" />
+      <maxSizeRollBackups value="2" />
+
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%level %thread %logger * %message%newline" />
+      </layout>
+    </appender>
+
+    <root>
+      <level value="ALL" />
+      <appender-ref ref="Console" />
+      <appender-ref ref="RollingFile" />
+    </root>
+  </log4net>
+ET
+  <configSections>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" />    
+  </configSections>
+Ajout dans Global.asax
+        protected void Application_Start()
+        {
+            log4net.Config.XmlConfigurator.Configure();
+* Modification class MyTracer
+===========================================
+Version 2
+===========================================
+** Custom Attributes
+* Ajout de public class MyRequestLogFilter : IActionFilter
+Traçage dans
+        public void OnActionExecuting(ActionExecutingContext filterContext)
+déclaré globalement
+    public class FilterConfig
+    {
+        public static void RegisterGlobalFilters(GlobalFilterCollection filters)
+        {
+            filters.Add(new HandleErrorAttribute());
+            filters.Add(new MyRequestLogFilter());
+
+        }
+    }
+Le traçage se fera à chaque exécution d'une action.
+* Ajout de Helpers/ApplicationException, pour tracer signaler à ELMAH les exceptions gérées.
+Utilisation:
+        public ActionResult HandledException()
+        {
+            //Helpers.MyTracer.MyTrace(System.Diagnostics.TraceLevel.Info, this.GetType().ToString(),
+            //      System.Reflection.MethodBase.GetCurrentMethod().Name, "Test tracage classique", null);
+            try
+            {
+                throw new ApplicationException("Handled exception for test");
+            }
+            catch (Exception ex)
+            {
+                Helpers.ApplicationExceptions.SignalHandledException(ex, this);
+            }
+            return View();
+        }
+===========================================
+Version 1
+===========================================
+** DataBase First: 
+* Ajout Modèle=NorthWind.edmx
+* Ajout Contrôleurs & Vues: Category et Product (CRUD)
+* Modification/Ajout Web.Config:
+Base SQLEXPRESS
+    <add name="NORTHWNDEntities" 
+         connectionString="metadata=res://*/Models.NorthWind.csdl|res://*/Models.NorthWind.ssdl|res://*/Models.NorthWind.msl;
+         provider=System.Data.SqlClient;
+         provider connection string=&quot;
+         data source=W8-PRO-64\SQLEXPRESS;
+         initial catalog=NORTHWND;
+         integrated security=True;
+         MultipleActiveResultSets=True;
+         App=EntityFramework&quot;" 
+         providerName="System.Data.EntityClient" />
+Base Fichier NORTHWND.MDF
+    <add name="NORTHWNDEntities"
+         connectionString="metadata=res://*/Models.NorthWind.csdl|res://*/Models.NorthWind.ssdl|res://*/Models.NorthWind.msl;
+         provider=System.Data.SqlClient;
+         provider connection string=&quot;
+         data source=(LocalDB)\v11.0;
+         attachdbfilename=|DataDirectory|\NORTHWND.MDF;
+         integrated security=True;
+         MultipleActiveResultSets=True;
+         App=EntityFramework&quot;"
+         providerName="System.Data.EntityClient" />
+
+** Traçage natif ASP.NET
+* Ajout Web.Config: 
+  <trace enabled="true" />
+
+** Traçage System.Diagnostics dans fichier texte
+* Ajout Helpers/MyTracer.cs
+* Ajout Web.Config: 
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="myListener"
+             type="System.Diagnostics.TextWriterTraceListener"
+             initializeData="App_Data/TextWriterOutput.log" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+
+** Custom Attributes
+* Ajout de CustomAttributes/BasicAuthAttribute.cs
+* public class BasicAuthAttribute : ActionFilterAttribute, IAuthenticationFilter
+* Pour les tests, ajout du DataAnnotation dans le contrôleur Product au niveau classe (Pas très judicieux)
+    [BasicAuthAttribute]
+    public class ProductController : Controller
+** Install-Package ELMAH.Mvc4
+* Ajout Web.Config:
+    <security allowRemoteAccess="true" />
+    <errorLog type="Elmah.XmlFileErrorLog, Elmah" logPath="~/App_Data" />
+    <errorMail from="yourfrom"
+                to="yourto"
+                cc="yourcc"
+                subject="CDF 54 ELMAH Error"
+                async="true"
+                smtpPort="587"
+                useSsl="true"
+                smtpServer="yoursmtp"
+                userName="yourusername"
+                password="yourpassword" />
+
+** Gestion des exceptions
+* Activation du filtre global: HandleErrorAttribute dans Web.Config
+    <customErrors mode="On">
+    </customErrors>
+*** Gestion erreur 404
+* Ajout contrôleur: MyErrorController.cs + Vue Index.cshtml
+* Ajout dans contrôleur HOME:
+        public ActionResult Lost()
+        {
+            return View();
+        }
+
+        public ActionResult Trouble()
+        {
+            return View("Error");
+        }
+* Ajout Views/Shared/Lost.cshtml et 
+* Ajout Web.Config:
+    <customErrors mode="On" defaultRedirect="/Home/Trouble">
+      <error statusCode="404" redirect="/Home/Lost" />
+    </customErrors>
+*** Gestion des exceptions gérées
+* Ajout Views/Shared/FatalError.cshtml
+* Pour tests seulement, ajout de la vue: /Home/HandledException.cshtml
+
+** Internationalisation
+* Ajout répertoire /Resources conteant l'arborescence classique d'un projet MVC
+* Ajout Web.Config:
+    <globalization culture="auto" uiCulture="auto" />
+
+** Design
+*** Ajout pagination dans Product
+* Modification de l'action Index du contrôleur Product
+        public ViewResult Index(int? page)
+        {
+            //var products = db.Products.Include(p => p.Category).Include(p => p.Supplier);
+            //return View(products.ToList());
+            var products = db.Products.Include(p => p.Category).Include(p => p.Supplier).OrderBy(s => s.ProductName);
+            int pageSize = 10;
+            int pageNumber = (page ?? 1);
+            return View(products.ToPagedList(pageNumber, pageSize));
+
+        }
+* Modification de la vue associée
+    Modification du "model"
+        @*@model IEnumerable<Mvc5Ef6WebApiDataFirstNthW.Models.Product>*@
+        changé en:
+        @model PagedList.IPagedList<Mvc5Ef6WebApiDataFirstNthW.Models.Product>
+    Pour l'entête qui n'est plus accessible à cause du filtrage
+        modification de (model => model. en (model => model.First()
+    Ajout de la navigation
+        <br />
+            <div>
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+            </div>
+
+*** Modifications de _Layout
+* Ajout des menus et des dropdown-menu
+* Modification du pied de page
+* Ajout Web.Config:
+    <add key="cdf54.Status" value="Local-Debug" />
+    <add key="cdf54.Company" value="HelpInfo (54 NANCY)" />
+    Ajout du code pour le pied de page
+@{
+    System.Reflection.Assembly _Assembly = HttpContext.Current.ApplicationInstance.GetType().BaseType.Assembly;
+    string AssemblyCompany =
+        ((System.Reflection.AssemblyCompanyAttribute)Attribute.GetCustomAttribute(_Assembly,
+        typeof(System.Reflection.AssemblyCompanyAttribute),
+        false)).Company;
+    string AssemblyCopyright =
+        ((System.Reflection.AssemblyCopyrightAttribute)Attribute.GetCustomAttribute(_Assembly,
+        typeof(System.Reflection.AssemblyCopyrightAttribute),
+        false)).Copyright;
+    string ApplicationName = _Assembly.GetName().Name;
+    string ApplicationVersion = _Assembly.GetName().Version.ToString();
+    string ApplicationStatus = System.Configuration.ConfigurationManager.AppSettings["cdf54.Status"].ToString();
+    string Company = System.Configuration.ConfigurationManager.AppSettings["cdf54.Company"].ToString();
+
+    string CompilationMode = "Release";
+    if (HttpContext.Current.IsDebuggingEnabled)
+    {
+        CompilationMode = "Debug";
+    }
+}
+    Modification affichage pied de page
+        <footer>
+            <p class="text-info">
+                [Société: @Company]<br />
+                [Application: @ApplicationName][Version: @ApplicationVersion]<br />
+                [Conception: @AssemblyCompany]<br />
+                [@AssemblyCopyright]<br />
+                [Status: @ApplicationStatus][Compilation Mode: @CompilationMode]<br />
+                [Culture: @System.Threading.Thread.CurrentThread.CurrentCulture]
+                [UI culture: @System.Threading.Thread.CurrentThread.CurrentUICulture]
+            </p>
+        </footer>
+
+*** Carousel
+* Ajout de la vue /Home/Carousel.cshtml
+* Ajout de la vue partielle /Views/Shared/_Carousel.cshtml et modification de la balise div
+        <div id="myCarousel" class="carousel slide" style="margin-top: 20px"  data-ride="carousel">
+    par ajout de data-ride="carousel" pour que celui-ci démarre au chargement de la page.
+* Ajout dans de section dans la vue /Home/Carousel.cshtml, pour insérer la vue partielle _Carousel
+@section Carousel
+{
+    @Html.Partial("_Carousel")
+}
+* Ajout dans _Layout du rendu facultatif du carousel (Car vrai uniquement pour la vue /Home/Carousel.cshtml)
+@RenderSection("Carousel", required: false)
+
+*** Fenêtre modale sur la page /Home/Index.cshtml
+* Ajout de la vue partielle: /Views/Shared/_Modal.cshtml
+* Ajout dans /Home/Index du script pour charger la page modale
+@section scripts {
+    <script type="text/javascript">
+        $('#myModal').modal('show');
+    </script>
+}
+nb. Ce script sera chargé en fin de page, puisque dans la page _Layout, le rendu de la section "scripts" @RenderSection("scripts", required: false) est située tout en bas de la page.
+Ajout aussi du rendu de la vue partielle _Modal
+@Html.Partial("_Modal")
+
+** Impression & PDF
+* Modification de _Layout pour ajouter du style dans les pages que l'on souhaite imprimer (Pour les tests: Category et Product)
+<head>
+    @RenderSection("styles", required: false)
+</head>
+*** Impression
+* Ajout de la section "styles"
+@section styles
+    {
+    <style type="text/css">
+        @@media print {
+            footer, #tdNotPrinted, #divNotPrinted, #pNotPrinted {
+                display: none;
+            }
+
+            @@page {
+                margin: 0cm;
+            }
+
+            header:after {
+                content: "www.smashing-winery.com";
+            }
+
+            header:before {
+                display: block;
+                content: "Thank you for printing our content at www.smashing-winery.com. Please check back soon for new offers on delicious wine from our winery.";
+                margin-bottom: 10px;
+                border: 1px solid #bbb;
+                padding: 3px 5px;
+                font-style: italic;
+            }
+        }
+    </style>
+}
+* Ajout des IDs: #tdNotPrinted, #divNotPrinted, #pNotPrinted pour la colonne, la div ou le paragraphe que l'on ne souhaite pas imprimer.
+* Ajout de <header></header> Pour afficher correctement le message de remerciement.
+* Idem pour Category (section "styles" légèrement différente)
+* Pour essai, ajout dans Category d'un bouton pour imprimer:
+<button id="buttonNotPrinted" class="btn btn-mini btn-danger" onclick="window.print()">print</button>
+
+*** PDF (Uniquement implémenté dans product)
+* Install-Package Rotativa
+* Ajout des vues
+/Product/PrintIndexAsPdf.cshtml pour la totalité
+et 
+/Product/PrintIndexAsPdfPageList.cshtml pour une page list
+* Ajout dans le contrôleur des actions:
+        public ActionResult PrintIndexAsPdf()
+        {
+            var products = db.Products.Include(p => p.Category).Include(p => p.Supplier).OrderBy(s => s.ProductName);
+            var pp = new Rotativa.ViewAsPdf(products);
+            pp.CustomSwitches = "--print-media-type";
+            pp.PageOrientation = Rotativa.Options.Orientation.Landscape;
+            return pp;
+        }
+        public ActionResult PrintIndexAsPdfPageList(int? page)
+        {
+            var products = db.Products.Include(p => p.Category).Include(p => p.Supplier).OrderBy(s => s.ProductName);
+            int pageSize = 10;
+            int pageNumber = (page ?? 1);
+            var productsPaged = products.ToPagedList(pageNumber, pageSize);
+            var pp = new Rotativa.ViewAsPdf(productsPaged);
+            pp.CustomSwitches = "--print-media-type";
+            pp.PageOrientation = Rotativa.Options.Orientation.Landscape;           
+            return pp;
+        }

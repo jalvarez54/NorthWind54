@@ -1,0 +1,123 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Ef6WebApiDataFirstNthW", "Mvc5Ef6WebApiDataFirstNthW\Mvc5Ef6WebApiDataFirstNthW.csproj", "{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Ef6WebApiDataFirstNthW.Tests", "Mvc5Ef6WebApiDataFirstNthW.Tests\Mvc5Ef6WebApiDataFirstNthW.Tests.csproj", "{46FDD137-2926-4603-AB5A-3733DE2F56DB}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "NorthWindModelingProject", "ModelingProject\NorthWindModelingProject.modelproj", "{405C75C0-B3EA-4876-9993-653BACF10A54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{61630391-1B0A-4D14-8E3C-93A1AFA6BDC6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98EF5B61-1DA2-4424-A832-9FE738755379}"
+	ProjectSection(SolutionItems) = preProject
+		CatchHandledException.snippet = CatchHandledException.snippet
+		CatchHandledFatalException.snippet = CatchHandledFatalException.snippet
+		NWHistory.txt = NWHistory.txt
+		SharedCommonInfosAssemblyInfo.cs = SharedCommonInfosAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWebApiClient", "WebApiClient\ConsoleWebApiClient.csproj", "{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFAWebApiClient", "WFAWebApiClient\WFAWebApiClient.csproj", "{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi clients", "WebApi clients", "{6E2100C9-968C-48CA-A26A-3E748D1FB9D2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Mvc5Ef6WebApiDataFirstNthW.Tests\\Mvc5Ef6WebApiDataFirstNthW.Tests.csproj
+		SccProjectName1 = Mvc5Ef6WebApiDataFirstNthW.Tests
+		SccLocalPath1 = Mvc5Ef6WebApiDataFirstNthW.Tests
+		SccProjectUniqueName2 = Mvc5Ef6WebApiDataFirstNthW\\Mvc5Ef6WebApiDataFirstNthW.csproj
+		SccProjectName2 = Mvc5Ef6WebApiDataFirstNthW
+		SccLocalPath2 = Mvc5Ef6WebApiDataFirstNthW
+		SccProjectUniqueName3 = WebApiClient\\ConsoleWebApiClient.csproj
+		SccProjectTopLevelParentUniqueName3 = Mvc5Ef6WebApiDataFirstNthW-V5.sln
+		SccProjectName3 = WebApiClient
+		SccLocalPath3 = WebApiClient
+		SccProjectUniqueName4 = WFAWebApiClient\\WFAWebApiClient.csproj
+		SccProjectTopLevelParentUniqueName4 = Mvc5Ef6WebApiDataFirstNthW-V5.sln
+		SccProjectName4 = WFAWebApiClient
+		SccLocalPath4 = WFAWebApiClient
+		SccProjectUniqueName5 = ModelingProject\\NorthWindModelingProject.modelproj
+		SccProjectName5 = ModelingProject
+		SccLocalPath5 = ModelingProject
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Developement|Any CPU = Developement|Any CPU
+		Integration|Any CPU = Integration|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Developement|Any CPU.ActiveCfg = Developement|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Developement|Any CPU.Build.0 = Developement|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{5F82B1DF-2372-4BD4-BBC5-E86BE5DE9FFF}.Test|Any CPU.Build.0 = Test|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Developement|Any CPU.ActiveCfg = Developement|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Developement|Any CPU.Build.0 = Developement|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{46FDD137-2926-4603-AB5A-3733DE2F56DB}.Test|Any CPU.Build.0 = Test|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Developement|Any CPU.ActiveCfg = Developement|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Developement|Any CPU.Build.0 = Developement|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{405C75C0-B3EA-4876-9993-653BACF10A54}.Test|Any CPU.Build.0 = Test|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Developement|Any CPU.ActiveCfg = Developement|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Developement|Any CPU.Build.0 = Developement|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6}.Test|Any CPU.Build.0 = Test|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Developement|Any CPU.ActiveCfg = Developement|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Developement|Any CPU.Build.0 = Developement|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944}.Test|Any CPU.Build.0 = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{972CB1AA-CAED-4B96-8CE8-8BB4AB84C944} = {6E2100C9-968C-48CA-A26A-3E748D1FB9D2}
+		{570A8B8F-E9B7-47AD-A7E7-5804F9BD20B6} = {6E2100C9-968C-48CA-A26A-3E748D1FB9D2}
+	EndGlobalSection
+EndGlobal

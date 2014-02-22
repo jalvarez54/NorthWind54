@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Lost";
+}
+<h1>
+    Confused?
+</h1>
+<h2>
+    Are you lost? @string.Format("The resource {0} was not found", @ViewData["error_path"])
+</h2>
+<a href="#" onclick="history.go(-1)">Go Back</a>

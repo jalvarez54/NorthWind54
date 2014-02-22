@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="/Content/cdf54.bootstrap.css" rel="stylesheet" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/Content/jquery-ui-1.10.3.custom.css" />
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="/Content/jquery-ui.css" />-->
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="/Content/ui.jqgrid.css" />
+    <script src="/Scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <!--<script src="/Scripts/jquery-ui-1.10.3.custom.js" type="text/javascript"></script>-->
+    <script src="/Scripts/jquery-ui.js" type="text/javascript"></script>
+    <script src="/Scripts/grid.locale-en.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.jqGrid.js" type="text/javascript"></script>
+
+
+
+</head>
+<body>
+        <table id="sortTableExample"> </table>
+        <div id="pager"></div>
+        <a href="javascript:void(0)" id="hc">Hide column Picture</a><br /> 
+        <a href="javascript:void(0)" id="sc">Show column Picture</a>
+</body>
+</html>
+<script type="text/javascript">
+    jQuery("#sortTableExample").jqGrid({
+        url: '/api/category',
+        datatype: "json",
+        width: 500,
+        height:"auto",
+        colNames: ['CategoryID', 'CategoryName', 'Description', 'Picture'],
+        colModel: [
+            { name: 'CategoryID', index: 'CategoryID', width: 100,align: "center",resizable:false, frozen:true,search:false },
+            { name: 'CategoryName', index: 'CategoryName', width: 150,resizable:false, frozen: true, search: false },
+            { name: 'Description', index: 'Description', width: 200, align: "left" },
+            { name: 'Picture', index: 'Picture', width: 800, align: "right",sortable: false }
+        ],
+        rowNum: 5,
+        rowList: [5, 20, 30],
+        pager: '#pager',
+        sortname: 'CategoryID',
+        viewrecords: true,
+        sortorder: "asc",
+        jsonReader: { repeatitems: false },
+        caption: "Categories",
+        autoencode: true,
+        loadonce: true,
+        ignoreCase: true,
+        //http://www.trirand.com/jqgridwiki/doku.php?id=wiki%3afrozencolumns
+        //sortable: true,
+        rownumbers: true,
+        toppager: true,
+        shrinkToFit: false,
+        loadComplete: function () {
+            var $self = $(this);
+            if ($self.jqGrid("getGridParam", "datatype") === "json") {
+                setTimeout(function () {
+                    $(this).trigger("reloadGrid"); // Call to fix client-side sorting
+                }, 50);
+            }
+        },
+        loadtext: "Loading data...",
+    });
+    jQuery("#sortTableExample").jqGrid('navGrid', '#pager',
+        {
+            'add': false,
+            'del': false,
+            'edit': false,
+            'search': true,
+            'refresh': true,
+            'cloneToTop': true,
+        });
+    //jQuery("#sortTableExample").jqGrid('setGroupHeaders',
+    //    {
+    //        useColSpanStyle: false,
+    //        groupHeaders: [
+    //            { startColumnName: 'CategoryID', numberOfColumns: 2, titleText: 'Categories Details' }
+    //        ]
+    //    });
+    //jQuery("#sortTableExample").jqGrid('setFrozenColumns');
+    jQuery("#sortTableExample").filterToolbar({ stringResult: true, searchOnEnter: false, defaultSearch: "cn" });
+    jQuery("#hc").click(function () {
+        jQuery("#sortTableExample").jqGrid('hideCol', "Picture");
+    });
+    jQuery("#sc").click(function () {
+        jQuery("#sortTableExample").jqGrid('showCol', "Picture");
+    });
+</script>

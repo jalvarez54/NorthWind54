@@ -1,0 +1,12 @@
+iisexpress.exe Information: 0 : 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+iisexpress.exe Information: 0 : 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= NotFound 
+	Message= Passage dans une Action
+iisexpress.exe Warning: 0 : 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller=  
+	Action=  
+	Message= 404 resource /NorthWind/__browserLink/requestData/88006864247f4e12b51532397cb6c355 not found

@@ -1,0 +1,12 @@
+iisexpress.exe Information: 0 : 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+iisexpress.exe Information: 0 : 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Carousel 
+	Message= Passage dans une Action
+iisexpress.exe Information: 0 : 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.

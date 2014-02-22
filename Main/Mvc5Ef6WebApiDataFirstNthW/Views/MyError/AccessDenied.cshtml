@@ -1,0 +1,13 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Access Denied";
+}
+<h1>
+    Access Denied
+</h1>
+
+<h2>
+    @string.Format("Sorry, you do not have access to the action {0}", @ViewData["action"])
+</h2>
+<a href="#" onclick="history.go(-1)">Go Back</a>

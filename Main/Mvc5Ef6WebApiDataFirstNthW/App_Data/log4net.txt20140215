@@ -1,0 +1,2229 @@
+[1] INFO  2014-02-15 00:02:27,410 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[9] INFO  2014-02-15 00:02:28,272 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 00:02:34,770 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 00:02:39,966 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 00:03:30,202 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 00:03:30,571 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[23] INFO  2014-02-15 00:07:19,151 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[22] INFO  2014-02-15 00:07:49,977 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[30] INFO  2014-02-15 00:07:50,063 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 00:08:32,199 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 00:08:33,679 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 00:08:41,803 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 00:08:51,105 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 00:09:43,036 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 00:09:43,417 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 00:09:49,263 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 00:10:31,033 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 00:24:32,760 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 00:24:34,082 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 00:24:42,605 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 00:24:49,463 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 00:40:39,030 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[13] INFO  2014-02-15 00:40:40,416 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 00:40:50,229 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 00:40:56,373 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 00:41:28,901 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[17] INFO  2014-02-15 00:42:03,594 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[24] INFO  2014-02-15 00:43:23,929 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 00:43:24,272 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 00:51:41,722 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[5] INFO  2014-02-15 00:51:42,916 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 00:51:45,645 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[11] ERROR 2014-02-15 00:51:45,647 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[8] INFO  2014-02-15 00:51:56,976 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[5] INFO  2014-02-15 00:52:02,956 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 00:52:11,432 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 00:52:30,724 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 00:53:32,134 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 00:53:34,677 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 00:53:42,068 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 00:53:47,349 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[5] INFO  2014-02-15 00:54:08,252 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[5] INFO  2014-02-15 00:54:13,585 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 00:54:15,514 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 00:54:31,541 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 00:55:08,902 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 00:55:09,278 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 00:55:12,251 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 00:55:17,370 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 00:55:17,413 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[29] INFO  2014-02-15 01:00:49,508 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[38] INFO  2014-02-15 01:00:51,820 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[8] INFO  2014-02-15 01:00:52,835 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[24] INFO  2014-02-15 01:00:59,891 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 01:01:04,512 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 01:01:11,290 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[33] INFO  2014-02-15 01:01:11,587 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 01:01:21,110 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 01:01:29,521 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 01:01:29,534 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 01:02:46,296 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[34] INFO  2014-02-15 01:02:48,728 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[10] INFO  2014-02-15 01:02:49,749 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 01:02:57,151 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 01:03:02,524 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[32] INFO  2014-02-15 01:03:06,645 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 01:03:06,942 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[30] INFO  2014-02-15 01:06:08,900 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[22] INFO  2014-02-15 01:06:15,789 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[37] INFO  2014-02-15 01:06:18,370 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[59] INFO  2014-02-15 01:12:41,287 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[61] INFO  2014-02-15 01:12:47,576 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[47] INFO  2014-02-15 01:12:49,421 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[77] INFO  2014-02-15 01:13:42,802 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[72] INFO  2014-02-15 01:13:49,948 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[74] INFO  2014-02-15 01:13:51,794 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[62] INFO  2014-02-15 01:14:20,616 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[58] INFO  2014-02-15 01:14:24,922 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[63] INFO  2014-02-15 01:14:26,647 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[77] INFO  2014-02-15 01:14:48,134 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[59] INFO  2014-02-15 01:15:01,985 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[61] INFO  2014-02-15 01:15:02,046 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[63] INFO  2014-02-15 01:15:04,626 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[62] INFO  2014-02-15 01:15:17,851 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[61] INFO  2014-02-15 01:15:17,865 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[71] INFO  2014-02-15 01:15:26,176 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[66] INFO  2014-02-15 01:15:29,695 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[62] INFO  2014-02-15 01:15:29,707 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[71] INFO  2014-02-15 01:15:52,244 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[63] INFO  2014-02-15 01:15:57,384 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[68] INFO  2014-02-15 01:16:00,605 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[80] INFO  2014-02-15 01:16:09,895 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[72] INFO  2014-02-15 01:16:24,160 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[77] INFO  2014-02-15 01:16:24,181 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[73] INFO  2014-02-15 01:16:27,342 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[75] INFO  2014-02-15 01:16:47,005 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[73] INFO  2014-02-15 01:16:47,017 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[73] INFO  2014-02-15 01:18:09,705 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 01:26:07,914 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[58] INFO  2014-02-15 01:26:08,005 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[58] ERROR 2014-02-15 01:26:08,007 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[78] INFO  2014-02-15 01:26:11,280 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[41] INFO  2014-02-15 01:26:16,368 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[25] INFO  2014-02-15 01:26:17,998 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 01:26:28,667 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[55] INFO  2014-02-15 01:26:28,684 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[55] INFO  2014-02-15 01:26:35,046 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[86] INFO  2014-02-15 01:27:37,004 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[5] INFO  2014-02-15 01:27:37,098 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[5] ERROR 2014-02-15 01:27:37,099 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[15] INFO  2014-02-15 01:27:41,821 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 01:27:44,431 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[91] INFO  2014-02-15 01:28:09,641 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[85] INFO  2014-02-15 01:28:09,727 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[85] ERROR 2014-02-15 01:28:09,728 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[86] INFO  2014-02-15 01:28:12,995 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[53] INFO  2014-02-15 01:28:15,161 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[91] INFO  2014-02-15 01:28:34,233 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[82] INFO  2014-02-15 01:28:34,271 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[78] INFO  2014-02-15 01:28:36,643 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[91] INFO  2014-02-15 01:28:46,948 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 01:28:46,980 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[67] INFO  2014-02-15 01:39:49,509 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[20] INFO  2014-02-15 02:17:50,790 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[29] INFO  2014-02-15 02:17:51,738 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[52] INFO  2014-02-15 02:18:00,868 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[24] INFO  2014-02-15 02:18:09,081 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[32] INFO  2014-02-15 02:18:11,809 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[33] INFO  2014-02-15 02:18:12,059 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[24] INFO  2014-02-15 02:18:14,518 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[59] INFO  2014-02-15 02:18:53,418 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[52] INFO  2014-02-15 02:18:53,875 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[59] INFO  2014-02-15 02:18:58,484 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 02:19:24,311 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[33] INFO  2014-02-15 02:19:24,358 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[52] INFO  2014-02-15 02:19:26,874 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[28] INFO  2014-02-15 02:19:59,315 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[28] INFO  2014-02-15 02:20:01,675 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 02:20:10,738 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[35] INFO  2014-02-15 02:20:10,769 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[24] INFO  2014-02-15 02:20:38,286 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 02:20:46,313 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[35] INFO  2014-02-15 02:21:02,751 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[62] INFO  2014-02-15 02:21:02,767 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[92] INFO  2014-02-15 02:49:06,382 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[1] INFO  2014-02-15 09:32:30,305 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[7] INFO  2014-02-15 09:32:31,742 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 09:32:47,149 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 09:32:50,681 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 09:32:50,743 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[7] ERROR 2014-02-15 09:32:50,743 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[13] INFO  2014-02-15 09:32:54,978 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 09:32:59,244 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 09:33:32,495 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 09:33:32,917 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 09:33:43,761 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 09:34:12,748 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 09:34:19,868 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[17] INFO  2014-02-15 09:34:24,879 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[17] INFO  2014-02-15 09:34:31,368 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 09:35:07,003 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 09:35:07,055 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[8] ERROR 2014-02-15 09:35:07,056 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[10] INFO  2014-02-15 09:35:11,416 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 09:35:15,685 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 09:35:32,407 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 09:35:39,071 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 09:35:42,044 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 09:35:54,664 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 09:35:56,827 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 09:36:34,785 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 09:36:40,503 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 09:36:42,800 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 09:36:59,767 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 09:37:05,012 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 09:37:07,299 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 09:37:14,821 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[32] INFO  2014-02-15 09:38:37,112 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[30] INFO  2014-02-15 09:38:42,385 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[29] INFO  2014-02-15 09:38:44,919 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[38] INFO  2014-02-15 09:39:26,247 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[33] INFO  2014-02-15 09:39:32,656 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[30] INFO  2014-02-15 09:39:43,235 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[22] INFO  2014-02-15 09:39:43,282 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 09:39:46,251 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[32] INFO  2014-02-15 09:40:33,925 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[29] INFO  2014-02-15 09:40:38,858 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[41] INFO  2014-02-15 09:40:40,992 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[27] INFO  2014-02-15 09:40:54,346 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[35] INFO  2014-02-15 09:40:56,947 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 09:41:23,413 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[5] INFO  2014-02-15 09:41:24,401 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 09:41:35,238 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[8] ERROR 2014-02-15 09:41:35,262 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[12] INFO  2014-02-15 09:41:41,685 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 09:41:44,163 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 09:43:21,488 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 09:43:27,254 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 09:43:57,178 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 09:43:57,960 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 09:44:04,804 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[22] INFO  2014-02-15 09:44:08,257 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[17] INFO  2014-02-15 09:44:08,382 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 11:03:17,195 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[5] INFO  2014-02-15 11:03:18,023 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 11:03:22,382 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 11:03:33,367 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 11:03:36,805 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 11:03:41,758 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[5] INFO  2014-02-15 11:03:44,852 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:03:52,790 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 11:04:13,656 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 11:04:15,999 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:04:32,777 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 11:04:40,199 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:04:42,168 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 11:04:42,355 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 11:04:44,621 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 11:05:13,185 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 11:05:13,654 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 11:05:20,045 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 11:05:36,811 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[17] INFO  2014-02-15 11:05:46,334 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 11:05:46,428 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 11:05:54,084 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 11:06:11,568 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[23] INFO  2014-02-15 11:06:49,450 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 11:06:49,685 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[18] ERROR 2014-02-15 11:06:49,700 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Edit/admin 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[1] INFO  2014-02-15 11:48:34,241 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 11:48:35,342 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 11:48:47,135 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 11:48:54,921 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 11:49:05,943 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:49:06,291 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 11:49:09,103 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:49:15,772 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 11:49:15,789 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 11:49:19,102 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 11:49:27,548 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 11:49:27,562 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 11:49:32,879 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 11:49:40,335 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 11:49:40,351 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 11:49:58,755 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 11:50:05,310 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:50:08,946 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 11:50:08,977 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 11:50:11,712 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 11:50:38,479 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:50:38,822 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 11:50:49,979 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 11:51:25,643 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[25] INFO  2014-02-15 11:55:36,216 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[31] INFO  2014-02-15 11:55:58,557 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[8] INFO  2014-02-15 11:55:59,245 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[23] INFO  2014-02-15 11:56:03,886 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 11:56:04,120 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[21] INFO  2014-02-15 11:56:33,646 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[1] INFO  2014-02-15 11:56:42,757 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[25] INFO  2014-02-15 11:56:43,429 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[29] INFO  2014-02-15 11:56:52,476 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[21] INFO  2014-02-15 11:56:52,789 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 11:57:02,750 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[1] INFO  2014-02-15 11:57:36,519 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 11:57:37,190 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 11:57:54,910 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[33] INFO  2014-02-15 11:57:55,238 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[33] INFO  2014-02-15 11:58:06,935 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[1] INFO  2014-02-15 12:12:15,675 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[43] INFO  2014-02-15 12:12:16,159 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[105] INFO  2014-02-15 15:16:51,747 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[1] INFO  2014-02-15 15:16:58,145 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 15:16:59,574 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 15:17:08,809 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 15:17:24,828 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 15:17:50,755 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 15:18:23,376 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 15:18:27,517 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 15:18:37,116 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 15:18:48,825 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 15:18:58,372 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 15:19:06,747 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 15:19:27,956 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 15:19:38,144 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 15:19:51,723 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 15:19:59,348 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 15:20:09,239 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 15:20:23,089 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[35] INFO  2014-02-15 15:20:30,136 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[34] INFO  2014-02-15 15:20:34,058 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[37] INFO  2014-02-15 15:20:57,477 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[37] INFO  2014-02-15 15:21:08,087 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[35] INFO  2014-02-15 15:21:39,443 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[22] INFO  2014-02-15 15:21:58,620 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[39] INFO  2014-02-15 15:22:06,542 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[44] INFO  2014-02-15 15:22:37,419 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[42] INFO  2014-02-15 15:22:46,536 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[42] INFO  2014-02-15 15:22:58,584 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[41] INFO  2014-02-15 15:23:05,599 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 15:23:16,543 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[31] INFO  2014-02-15 15:23:24,137 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[40] INFO  2014-02-15 15:23:26,997 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[19] INFO  2014-02-15 15:23:27,137 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[40] INFO  2014-02-15 15:23:31,716 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[31] INFO  2014-02-15 15:23:33,763 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[22] INFO  2014-02-15 15:23:33,856 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 15:27:19,001 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[13] INFO  2014-02-15 15:27:20,301 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 15:27:28,779 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 15:27:34,948 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 15:27:39,597 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 15:28:03,108 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 15:42:43,356 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[12] INFO  2014-02-15 15:42:44,701 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 15:43:08,658 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 15:43:24,765 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 15:43:32,187 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 15:43:32,540 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 15:43:37,621 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 15:43:44,531 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 15:43:44,609 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 15:43:51,341 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[20] INFO  2014-02-15 15:43:57,086 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 15:44:23,761 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[25] INFO  2014-02-15 15:44:57,051 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[25] INFO  2014-02-15 15:45:07,504 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[27] INFO  2014-02-15 15:45:07,582 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[26] INFO  2014-02-15 15:45:20,797 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[27] INFO  2014-02-15 15:45:24,704 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 15:47:45,472 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 15:47:46,312 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 15:47:52,294 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 15:47:59,043 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 15:48:16,135 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 15:49:51,474 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 15:49:52,817 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 15:50:06,600 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 15:50:11,930 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 15:50:20,508 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 15:50:20,874 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 15:50:40,250 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 15:50:43,668 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 15:52:43,637 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[5] INFO  2014-02-15 15:52:44,938 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 15:52:52,773 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 15:52:57,824 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 15:53:01,673 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 15:56:07,818 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 15:56:08,658 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 15:56:22,326 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 15:56:29,366 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 15:56:33,315 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:07:22,824 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[10] INFO  2014-02-15 16:07:24,122 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 16:07:32,003 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:09:11,650 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 16:09:12,488 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 16:09:18,055 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 16:09:22,069 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:14:02,947 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[11] INFO  2014-02-15 16:14:04,291 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 16:14:16,089 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[14] INFO  2014-02-15 16:14:30,121 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Login 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 16:14:32,605 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 16:14:40,230 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 16:14:43,543 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:16:11,310 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 16:16:12,149 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 16:16:19,846 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 16:16:26,344 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 16:16:28,689 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:17:25,097 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 16:17:26,429 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 16:17:32,898 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 16:17:39,526 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 16:17:41,911 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:29:17,718 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 16:29:19,037 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 16:29:25,763 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 16:29:31,393 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 16:29:34,494 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:36:12,539 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 16:36:13,857 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 16:36:25,870 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 16:36:31,311 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 16:36:34,024 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 16:36:34,326 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 16:36:44,061 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 16:36:45,884 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[17] INFO  2014-02-15 16:36:45,998 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:37:52,072 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 16:37:52,795 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 16:38:02,211 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[9] INFO  2014-02-15 16:38:06,706 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 16:38:36,993 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 16:38:37,025 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Action= UnHandledException 
+	Message= Passage dans une Action
+[11] ERROR 2014-02-15 16:38:37,027 Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController 
+	Controller= MyError 
+	Action= UnHandledException 
+	Message= Unhandled exception in /NorthWind/Account/Register 
+	GetBaseException= System.ApplicationException: My UnHandled Exception
+[23] INFO  2014-02-15 16:48:55,278 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[1] INFO  2014-02-15 16:49:01,529 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[8] INFO  2014-02-15 16:49:03,056 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 16:49:32,018 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[5] INFO  2014-02-15 16:49:40,687 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 16:50:07,754 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 16:50:40,274 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[17] INFO  2014-02-15 16:50:46,540 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 16:51:39,882 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 16:51:42,461 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[18] INFO  2014-02-15 16:51:42,586 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[19] INFO  2014-02-15 16:51:45,070 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 16:52:08,837 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[1] INFO  2014-02-15 16:53:54,509 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 16:53:55,590 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 16:54:02,890 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 16:54:07,830 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 16:54:32,804 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[10] INFO  2014-02-15 16:54:33,496 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 16:54:46,806 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 16:54:52,887 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 16:54:52,909 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 16:54:54,676 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 16:55:01,073 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 16:55:02,020 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 16:55:08,849 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 16:55:12,662 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 16:55:12,674 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[7] INFO  2014-02-15 16:55:15,925 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[13] INFO  2014-02-15 16:55:22,501 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 16:55:22,542 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[15] INFO  2014-02-15 16:55:24,977 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[8] INFO  2014-02-15 16:55:27,715 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Delete 
+	Message= Passage dans une Action
+[6] INFO  2014-02-15 16:55:27,746 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[16] INFO  2014-02-15 18:46:35,632 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[46] INFO  2014-02-15 18:46:39,768 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[22] INFO  2014-02-15 18:46:40,762 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[30] INFO  2014-02-15 18:46:48,151 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[30] INFO  2014-02-15 18:46:56,619 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[51] INFO  2014-02-15 18:47:51,598 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Register 
+	Message= Passage dans une Action
+[42] INFO  2014-02-15 18:47:52,292 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[36] INFO  2014-02-15 18:48:12,831 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Exiting application.
+[1] INFO  2014-02-15 18:54:50,087 ASP.global_asax 
+ 	Class=ASP.global_asax 
+	Controller=  
+	Action=  
+	Message= Entering application.
+[6] INFO  2014-02-15 18:54:51,443 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.HomeController 
+	Action= Index 
+	Message= Passage dans une Action
+[11] INFO  2014-02-15 18:55:01,857 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Index 
+	Message= Passage dans une Action
+[12] INFO  2014-02-15 18:55:07,218 Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+ 	Class=Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes.MyRequestLogFilter 
+	Controller= Mvc5Ef6WebApiDataFirstNthW.Controllers.AccountController 
+	Action= Edit 
+	Message= Passage dans une Action

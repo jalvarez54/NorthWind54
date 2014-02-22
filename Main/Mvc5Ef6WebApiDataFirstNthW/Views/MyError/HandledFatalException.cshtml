@@ -1,0 +1,34 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Handled Fatal Exception";
+}
+
+<h1 class="text-danger">@ViewBag.Title</h1>
+<h2 class="text-danger">Sorry, an error occurred while processing your request. We've been notified and we will check it out.</h2>
+@{
+    try
+    {
+        if (HttpContext.Current.IsDebuggingEnabled && @Model != null)
+        {
+            <p>
+                Action Name: @Model.ActionName <br />
+                Controller Name: @Model.ControllerName <br />
+                Exception.Message: @Model.Exception.Message <br />
+                Exception.Source: @Model.Exception.Source <br />
+                Exception.TargetSite: @Model.Exception.TargetSite <br />
+                Exception.InnerException: @Model.Exception.InnerException <br />
+                Exception.StackTrace: @Model.Exception.StackTrace
+            </p>
+        }
+    }
+    catch (Exception)
+    {
+        // Do nothing
+    }
+}
+
+<a href="#" onclick="history.go(-1)">Go Back</a>
+
+
+

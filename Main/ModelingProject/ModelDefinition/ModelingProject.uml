@@ -1,0 +1,2116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c1146d6d-f7df-4695-a7f7-5ffb70dee040"
+  name="NorthWindModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="08635d40-97e4-4054-9412-4779f4cd50fc">
+      <profileInstance
+        Id="9781e3ff-af43-414a-a2a8-2f28b4d6cc73"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8c5a1adc-6c1f-45ec-a66e-b2b990fa30ba"
+        LastKnownName="System"
+        LastKnownLocation="Package2_2159.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="64e3dfb7-13b3-46da-a948-b7f61b4141ab"
+        name="Member"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="6e5343fb-8a7b-4dd4-8ba0-09d858ed0875"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="0adb8516-7564-4089-8473-ba884ca81040"
+              LastKnownName="Guess"
+              LastKnownLocation="ModelingProject.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="bb8bdbb1-b159-4eff-8973-26f83274944f"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="View"
+            isLeaf="false"
+            isAbstract="false">
+            <artifactMoniker
+              Id="5a4cf0ae-f40a-4412-9e43-fd1044af845e"
+              LastKnownName="View"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d85ffadc-5c0f-4b27-854d-2c0bd7e91876"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="39f1e948-6300-49b7-be24-6d2ed81f36b9"
+                  name="View"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b7ce35ff-6946-47d6-baeb-d2c2b4aaf746"
+            isDerived="false"
+            sourceEndRoleName="Member"
+            targetEndRoleName="UC - Get members pages"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f8bc7ba4-7e9a-481f-a8a0-9957c5b03da5"
+              LastKnownName="UC - Get members pages"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f43f89d7-fe56-4be8-a340-799267d5fadf"
+                  name="Member"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7a557456-c4b1-4bfb-98e0-863bcd07ca4d"
+                  name="UC - Get members pages"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="5a4cf0ae-f40a-4412-9e43-fd1044af845e"
+        name="View"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e7cac5e6-b2bb-45ad-8f4a-197745650b2b"
+            isDerived="false"
+            sourceEndRoleName="View"
+            targetEndRoleName="Controller"
+            isLeaf="false"
+            isAbstract="false">
+            <artifactMoniker
+              Id="4e9f52bb-1236-47d7-85a2-9de48217f796"
+              LastKnownName="Controller"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="17411bf0-56ec-43b8-9cd2-dc0fe5d8a82e"
+                  name="View"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c28751ca-52d4-4666-91f0-bc0c51eb18b4"
+                  name="Controller"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </artifact>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="4e9f52bb-1236-47d7-85a2-9de48217f796"
+        name="Controller"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8b429e3f-617e-468d-b8b4-0b3fecbded2b"
+            isDerived="false"
+            sourceEndRoleName="Controller"
+            targetEndRoleName="Model"
+            isLeaf="false"
+            isAbstract="false">
+            <artifactMoniker
+              Id="e441ed7d-9027-48e9-b485-df9d3a35c87b"
+              LastKnownName="Model"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c05acbf0-46eb-484f-b5d0-d2cf2ddf5379"
+                  name="Controller"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9121fa19-0fbe-4094-9d46-0a2a8d02ab47"
+                  name="Model"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </artifact>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="e441ed7d-9027-48e9-b485-df9d3a35c87b"
+        name="Model"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="6aaef28b-1194-4f95-9161-e5aedb0efb41"
+        name="SD Category"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <ownedCommentsInternal>
+          <comment
+            Id="1c02ea35-e5cb-4798-8c3c-d867f36b3a7f">
+            <body>http://channel9.msdn.com/Niners/clinted</body>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="4b5def8c-b617-4af1-a283-879f1857f6d7"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="03ff32a8-7379-48cd-a0c4-68d091ddbcbd"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b15779ff-63e6-4b3e-8b79-dedd48b4df7d"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0cd48351-2d72-4940-b3e6-30a4fc89eca5"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="48d0a069-984d-47b5-a43c-28e9de19343b"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="40894b77-851e-4b5b-b1c9-9bebf48f4d9e"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3ea20fc2-e3ec-4833-8143-7f0dc28c08d1"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f98e7340-ef40-43a2-a1fd-9cfaf3679c6e"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8336aa6c-4784-4329-9efc-e9d1ba12b7e9"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f1bc7926-77bf-435f-b147-1bc39819b13c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b15779ff-63e6-4b3e-8b79-dedd48b4df7d"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="dfdac010-410e-4f33-aac0-a777d4402dea"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="827a0193-9e97-4c33-b458-7aa7ec3347d5"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="49ad28a9-158e-473f-8f63-bf5e8bd29bd4"
+                LastKnownName="Agent"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0cd48351-2d72-4940-b3e6-30a4fc89eca5"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="1ff19147-fe10-4cb5-b5d9-817b2214b4c8"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="c4c2e371-3d94-46f2-8f2e-1f7cdcce9dfc"
+                LastKnownName="NORTHWNDEntities : NORTHWNDEntities"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a81ca619-f334-47cf-bc78-7a3c88fb7152"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="448c7136-0d09-43de-9fc5-8ee6fa748399"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3c67a509-e332-4705-9119-62ddba8982e4"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="267928a3-298a-4173-be9b-0d26dff1c8bd"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="448c7136-0d09-43de-9fc5-8ee6fa748399"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fe00bb7d-2018-4808-9e6d-7a6e1043e01d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="c4c2e371-3d94-46f2-8f2e-1f7cdcce9dfc"
+                LastKnownName="NORTHWNDEntities : NORTHWNDEntities"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="48d0a069-984d-47b5-a43c-28e9de19343b"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3c67a509-e332-4705-9119-62ddba8982e4"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="c4c2e371-3d94-46f2-8f2e-1f7cdcce9dfc"
+                LastKnownName="NORTHWNDEntities : NORTHWNDEntities"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="40894b77-851e-4b5b-b1c9-9bebf48f4d9e"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="267928a3-298a-4173-be9b-0d26dff1c8bd"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="c4c2e371-3d94-46f2-8f2e-1f7cdcce9dfc"
+                LastKnownName="NORTHWNDEntities : NORTHWNDEntities"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a81ca619-f334-47cf-bc78-7a3c88fb7152"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c8e9e747-9613-4063-9700-50518510c1fd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="c4c2e371-3d94-46f2-8f2e-1f7cdcce9dfc"
+                LastKnownName="NORTHWNDEntities : NORTHWNDEntities"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3ea20fc2-e3ec-4833-8143-7f0dc28c08d1"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="8e22cedd-33a9-4422-afe9-94f2251189aa"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="8336aa6c-4784-4329-9efc-e9d1ba12b7e9"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f98e7340-ef40-43a2-a1fd-9cfaf3679c6e"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="cf1a0b06-8d93-41a6-9da6-4d4b2451798a"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5f79538a-be47-4e0a-8e3c-36dd4f2d22d7"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d20aae47-365f-4d36-b2f4-77bebae19471"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f98e7340-ef40-43a2-a1fd-9cfaf3679c6e"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="87af98c5-39a4-4668-8df5-e3ab7584110e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cf1a0b06-8d93-41a6-9da6-4d4b2451798a"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3f53e070-db13-4e02-a968-2d89d67aa02d"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="7accc030-e8dd-4d0c-9d30-778eb9b239bc"
+                LastKnownName="CategoryView"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c77c5a83-3add-4e11-bc17-a96ad918ae0a"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="bb365cba-caec-488f-b377-554dcdfb2980"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="70243b3f-dd04-4ef0-b326-7dbcd3ca5304"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6f58277a-ff59-4275-a102-7b619ac783fa"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="bb365cba-caec-488f-b377-554dcdfb2980"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0fc20a6c-09b1-40f0-a2d4-2032f9f445dd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7accc030-e8dd-4d0c-9d30-778eb9b239bc"
+                LastKnownName="CategoryView"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5f79538a-be47-4e0a-8e3c-36dd4f2d22d7"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="70243b3f-dd04-4ef0-b326-7dbcd3ca5304"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="7accc030-e8dd-4d0c-9d30-778eb9b239bc"
+                LastKnownName="CategoryView"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6f58277a-ff59-4275-a102-7b619ac783fa"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="7accc030-e8dd-4d0c-9d30-778eb9b239bc"
+                LastKnownName="CategoryView"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d20aae47-365f-4d36-b2f4-77bebae19471"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c77c5a83-3add-4e11-bc17-a96ad918ae0a"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="de608690-dbbf-485f-b918-def4d3859915"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="7accc030-e8dd-4d0c-9d30-778eb9b239bc"
+                LastKnownName="CategoryView"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="8336aa6c-4784-4329-9efc-e9d1ba12b7e9"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9ea2afad-be09-43c0-ade2-4b744bef8ffa"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f1bc7926-77bf-435f-b147-1bc39819b13c"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3c03108d-9874-4622-ba88-0f6163a6858d"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="49ad28a9-158e-473f-8f63-bf5e8bd29bd4"
+                LastKnownName="Agent"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="03ff32a8-7379-48cd-a0c4-68d091ddbcbd"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4545afd5-dcf5-4c59-a6be-8c4941be5adb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+                LastKnownName="CategoryController : CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="49ad28a9-158e-473f-8f63-bf5e8bd29bd4"
+            name="Agent"
+            isActor="true"
+            lifelineDisplayName="Agent">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="827a0193-9e97-4c33-b458-7aa7ec3347d5"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3c03108d-9874-4622-ba88-0f6163a6858d"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="0b3986d7-74e9-4b8a-be09-7e081fb9be5a"
+            name="CategoryController : CategoryController"
+            isActor="false"
+            lifelineDisplayName="CategoryController : CategoryController">
+            <represents>
+              <propertyMoniker
+                Id="9d8d86e6-486a-43de-bc2d-5cbe71ad5d51"
+                LastKnownLocation="ModelingProject.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="b15779ff-63e6-4b3e-8b79-dedd48b4df7d"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="03ff32a8-7379-48cd-a0c4-68d091ddbcbd"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="c4c2e371-3d94-46f2-8f2e-1f7cdcce9dfc"
+            name="NORTHWNDEntities : NORTHWNDEntities"
+            isActor="false"
+            lifelineDisplayName="NORTHWNDEntities : NORTHWNDEntities">
+            <represents>
+              <propertyMoniker
+                Id="2601728f-fd7c-48f4-b1b1-76cb88c68037"
+                LastKnownLocation="ModelingProject.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="448c7136-0d09-43de-9fc5-8ee6fa748399"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a81ca619-f334-47cf-bc78-7a3c88fb7152"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="7accc030-e8dd-4d0c-9d30-778eb9b239bc"
+            name="CategoryView"
+            isActor="false"
+            lifelineDisplayName="CategoryView">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="bb365cba-caec-488f-b377-554dcdfb2980"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c77c5a83-3add-4e11-bc17-a96ad918ae0a"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="7bcefe30-1dc9-4586-914a-bc12fb54ce65"
+            name="/Category"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="827a0193-9e97-4c33-b458-7aa7ec3347d5"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0cd48351-2d72-4940-b3e6-30a4fc89eca5"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3fbaa649-4be0-459d-a8e9-728c37f63cb6"
+            name="GetCategories"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="48d0a069-984d-47b5-a43c-28e9de19343b"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3c67a509-e332-4705-9119-62ddba8982e4"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f4366160-5387-4c90-a15c-31e664816cc1"
+            name="CategoriesList"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="267928a3-298a-4173-be9b-0d26dff1c8bd"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="40894b77-851e-4b5b-b1c9-9bebf48f4d9e"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4592b055-fa3c-415d-a457-4ca6ca60cfc0"
+            name="this.View(&quot;Category&quot;)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3ea20fc2-e3ec-4833-8143-7f0dc28c08d1"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cf1a0b06-8d93-41a6-9da6-4d4b2451798a"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0f61c171-f66e-429d-857e-c6e1af458102"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5f79538a-be47-4e0a-8e3c-36dd4f2d22d7"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="70243b3f-dd04-4ef0-b326-7dbcd3ca5304"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="284d7e7b-fda9-42eb-9a3d-ea900bf1997e"
+            name="ViewResult"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6f58277a-ff59-4275-a102-7b619ac783fa"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d20aae47-365f-4d36-b2f4-77bebae19471"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7d86af3a-c9b6-459f-a5b1-a26db8435a8b"
+            name="ViewResult"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f1bc7926-77bf-435f-b147-1bc39819b13c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3c03108d-9874-4622-ba88-0f6163a6858d"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="c1f9227f-6fbe-484c-84d8-50e208541fd1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="2fcfd1cf-0464-4c66-b514-40c92bed3d96"
+                LastKnownName="CategoryController"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d4ede9ae-b359-4532-8d9f-17fe84d286a0"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fbec9d10-ea60-4008-b34b-5bc008e2d340"
+                LastKnownName="NORTHWNDEntities"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3f3b956c-d0f3-40c6-afe5-b03d499239e9"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="efd75d2f-13ef-46df-982b-3d9a9bfa0b49"
+                LastKnownName="MvcApplication"
+                LastKnownLocation="Package_2206.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4e2ca114-48b5-4a5d-84ca-f8d16d99f7ac"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="a553b61b-d4c3-4bbe-b291-894567496708"
+                LastKnownName="HomeController"
+                LastKnownLocation="Package_2209.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9d8d86e6-486a-43de-bc2d-5cbe71ad5d51"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="da52fbca-74cb-4558-bae4-0cadd25e36cc"
+                LastKnownName="CategoryController"
+                LastKnownLocation="Package_2209.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2601728f-fd7c-48f4-b1b1-76cb88c68037"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="fccbc9bd-b4a4-4782-9a5f-d638e01dd0c2"
+                LastKnownName="NORTHWNDEntities"
+                LastKnownLocation="Package1_2206.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f9c0134e-c83f-4965-b45f-a527f4b04f18"
+        name="Controller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="1c5be9b8-2284-44c3-adaa-bc6e0570e013"
+            isDerived="false"
+            sourceEndRoleName="Controller"
+            targetEndRoleName="Model"
+            isLeaf="false"
+            name="Manipulates"
+            isAbstract="false">
+            <classMoniker
+              Id="7b983104-85fb-4d53-9b3e-01a5b14972dc"
+              LastKnownName="Model"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dcb90913-9476-484a-b58a-c9afaa171bba"
+                  name="Controller"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7524d5ef-cb46-42fa-874b-474a2659a5d4"
+                  name="Model"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4c7d3ee8-bf17-44df-93a5-40e895222668"
+            isDerived="false"
+            sourceEndRoleName="Controller"
+            targetEndRoleName="View"
+            isLeaf="false"
+            name="Create"
+            isAbstract="false">
+            <classMoniker
+              Id="60c17411-cd92-4beb-bf28-e30eab661c4b"
+              LastKnownName="View"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7abae982-4aa3-4e19-bb50-13e506477292"
+                  name="Controller"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fcd9b252-3590-4b81-8790-fc14ab444efb"
+                  name="View"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="60c17411-cd92-4beb-bf28-e30eab661c4b"
+        name="View"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="8f848762-6bd8-4578-b28c-ab70df9d2bcd"
+            isDerived="false"
+            sourceEndRoleName="View"
+            targetEndRoleName="Model"
+            isLeaf="false"
+            name="Use"
+            isAbstract="false">
+            <classMoniker
+              Id="7b983104-85fb-4d53-9b3e-01a5b14972dc"
+              LastKnownName="Model"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c9d860c8-3f2d-4a39-a3f0-ddee693288c6"
+                  name="View"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f7aee959-4546-4f1f-b3c5-94fdd292bf6d"
+                  name="Model"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7b983104-85fb-4d53-9b3e-01a5b14972dc"
+        name="Model"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="866a7bba-1165-4a31-8fa3-6bb88aae443b">
+            <packageMoniker
+              Id="a6f9a530-634f-4ed3-b0f6-51021dd9706b"
+              LastKnownName="ProGetWeb"
+              LastKnownLocation="Package_1649.uml" />
+          </dependency>
+          <dependency
+            Id="c8dc33c1-24ea-46b2-97bf-1318cb300831">
+            <packageMoniker
+              Id="b334b28e-7aa6-4ccb-a6b3-f1f249f2ca2c"
+              LastKnownName="ProGetWebUsers"
+              LastKnownLocation="Package_0821.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2f4744af-4a14-4b78-8335-9dd9f216d1d2"
+        name="Routing"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="73997b5f-547c-451b-b908-ca02e67e858e"
+            isDerived="false"
+            sourceEndRoleName="Routing"
+            targetEndRoleName="Controller"
+            isLeaf="false"
+            name="Route"
+            isAbstract="false">
+            <classMoniker
+              Id="f9c0134e-c83f-4965-b45f-a527f4b04f18"
+              LastKnownName="Controller"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="73781ecf-4853-495f-9be7-281422d854e1"
+                  name="Routing"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f64cc9d-3dfc-44bb-b916-d8e4c1e6f2ab"
+                  name="Controller"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a6f9a530-634f-4ed3-b0f6-51021dd9706b"
+        LastKnownName="ProGetWeb"
+        LastKnownLocation="Package_1649.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ec419591-a2b6-4a9f-bd54-54b068655366"
+        LastKnownName="Owin"
+        LastKnownLocation="Package2_2204.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="2fcfd1cf-0464-4c66-b514-40c92bed3d96"
+        name="CategoryController" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fbec9d10-ea60-4008-b34b-5bc008e2d340"
+        name="NORTHWNDEntities" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="536a6149-b953-426b-b203-4570a2708072"
+        LastKnownName="Mvc5Ef6WebApiDataFirstNthW"
+        LastKnownLocation="Package_2206.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9a537762-8543-4bfe-9399-08088deb1853"
+        LastKnownName="Microsoft"
+        LastKnownLocation="Package_0745.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="109c2433-9e50-43b8-b6ab-84f575911bae"
+        name="View::Contact"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="01523263-0909-4325-8167-0a67b894d94d"
+            isDerived="false"
+            sourceEndRoleName="View::Contact"
+            targetEndRoleName="View::_Layout"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3565272b-f234-49fb-a756-ca068e494399"
+              LastKnownName="View::_Layout"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="14a4cfd2-9ce8-46ed-845b-a2c45e6f63ff"
+                  name="View::Contact"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="11389769-07e0-4e52-9cf1-9e855e887687"
+                  name="View::_Layout"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="81901b5c-830e-4ddc-bacf-7cf05aff5088"
+        name="View::Index"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="0427984d-b432-4805-a4df-bc339ac47641"
+            isDerived="false"
+            sourceEndRoleName="View::Index"
+            targetEndRoleName="View::_Layout"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3565272b-f234-49fb-a756-ca068e494399"
+              LastKnownName="View::_Layout"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4551f1a2-71fc-4330-8759-39d885694bbe"
+                  name="View::Index"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="37813095-6971-4aa4-8e11-0935a0e8869f"
+                  name="View::_Layout"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f128f113-f468-4b3c-b9df-bd3f80331bc2"
+        name="View::About"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="dec0b341-4e73-4337-b024-a2d3e47eb2b6"
+            isDerived="false"
+            sourceEndRoleName="View::About"
+            targetEndRoleName="View::_Layout"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3565272b-f234-49fb-a756-ca068e494399"
+              LastKnownName="View::_Layout"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88b632fd-146a-4ca7-85c8-9a6350fd2c41"
+                  name="View::About"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7afa1029-67b8-41a6-b4d3-1398bbe5d0e2"
+                  name="View::_Layout"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3565272b-f234-49fb-a756-ca068e494399"
+        name="View::_Layout"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eb7b51e0-239c-4ce1-8230-583186c9edad"
+        name="View::Carousel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="422df5a3-d3fc-4e59-b67c-945c24681fb6"
+            isDerived="false"
+            sourceEndRoleName="View::Carousel"
+            targetEndRoleName="PartialView::_Carousel"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2a498b14-c81b-424c-be40-19b3e257db2c"
+              LastKnownName="PartialView::_Carousel"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a0b8c99-4605-41ea-9cf4-596b25dd2c84"
+                  name="View::Carousel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7605cc24-4be7-4b7b-a015-5442f3eecc76"
+                  name="PartialView::_Carousel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="21c8267d-aec6-4d56-8e49-f7af3da3b521"
+            isDerived="false"
+            sourceEndRoleName="View::Carousel"
+            targetEndRoleName="View::_Layout"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3565272b-f234-49fb-a756-ca068e494399"
+              LastKnownName="View::_Layout"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f9bf53f-7070-4248-a1f8-79690b0587d8"
+                  name="View::Carousel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97067bc7-51a1-4093-ae7e-54f9b7966532"
+                  name="View::_Layout"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2a498b14-c81b-424c-be40-19b3e257db2c"
+        name="PartialView::_Carousel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4bda733b-0feb-4cc1-a5ba-3be29ab76bc2"
+        name="System.Data.Entity.DbContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b334b28e-7aa6-4ccb-a6b3-f1f249f2ca2c"
+        LastKnownName="ProGetWebUsers"
+        LastKnownLocation="Package_0821.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="dfdac010-410e-4f33-aac0-a777d4402dea"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4545afd5-dcf5-4c59-a6be-8c4941be5adb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fe00bb7d-2018-4808-9e6d-7a6e1043e01d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c8e9e747-9613-4063-9700-50518510c1fd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="87af98c5-39a4-4668-8df5-e3ab7584110e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9ea2afad-be09-43c0-ade2-4b744bef8ffa"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0fc20a6c-09b1-40f0-a2d4-2032f9f445dd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="de608690-dbbf-485f-b918-def4d3859915"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="f86ca0a1-0b93-4c17-a46e-2ff9f2d8a641"
+        name="NorthWind Web Site"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="f6a31074-edba-4b53-ac86-2a3001ceaaa1">
+            <componentMoniker
+              Id="5d1dd228-f7ba-43ee-8de2-6e8d00e67765"
+              LastKnownName="NorthWind Domain"
+              LastKnownLocation="ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="5d1dd228-f7ba-43ee-8de2-6e8d00e67765"
+        name="NorthWind Domain"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="f2823dda-c0a8-4fb4-bf7c-27207ef002f6">
+            <componentMoniker
+              Id="5b9437e0-8004-45c2-9c7c-4ff66bd13a9e"
+              LastKnownName="DataBase access"
+              LastKnownLocation="ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="5b9437e0-8004-45c2-9c7c-4ff66bd13a9e"
+        name="DataBase access"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="43a0986f-4d4d-4b5b-8643-9cc64f2867c2">
+            <componentMoniker
+              Id="ee5059d5-9799-452c-bc63-39a11ea700da"
+              LastKnownName="NorthWind DataBase"
+              LastKnownLocation="ModelingProject.uml" />
+          </dependency>
+          <dependency
+            Id="5b7ec81a-80ad-4a7b-b84d-120661b6af91">
+            <componentMoniker
+              Id="e3e4886b-ca6f-4ef9-9ad6-bd3c97a91f27"
+              LastKnownName="NorthWindUsers DataBase"
+              LastKnownLocation="ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="ee5059d5-9799-452c-bc63-39a11ea700da"
+        name="NorthWind DataBase"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="e3e4886b-ca6f-4ef9-9ad6-bd3c97a91f27"
+        name="NorthWindUsers DataBase"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="fca17908-1623-4d73-8ce8-187b35f81a6d"
+        name="Admin"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="2594d349-c857-4c2a-b8d2-a0c69cc96346"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="64e3dfb7-13b3-46da-a948-b7f61b4141ab"
+              LastKnownName="Member"
+              LastKnownLocation="ModelingProject.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="39f27d9e-7322-4253-a92c-afc1f58e2b47"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="UC - Get admin pages"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b20d45e8-4f8b-4592-87d4-6faa111f06ad"
+              LastKnownName="UC - Get admin pages"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="42f9563d-e24e-4d1e-9c93-19d9d6d39aa9"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f3399d47-e84c-417b-aa22-6752ad0bcc81"
+                  name="UC - Get admin pages"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"
+        name="Subsystem-NorthWind"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="af5b06e4-fa55-4cdb-b59c-ac8bd69b2403"
+        name="NorthWind DataBase"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c14d5210-495c-45c9-9ce7-27d20381690f"
+            isDerived="false"
+            sourceEndRoleName="NorthWind DataBase"
+            targetEndRoleName="UC- Get guess pages"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2c0cb8e8-a447-45d0-ac4d-d02369dd2d72"
+              LastKnownName="UC- Get guess pages"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a28ffa1d-b007-4066-8c00-209bd2667636"
+                  name="NorthWind DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ab37223d-be89-4020-a007-271c4d5ac2ea"
+                  name="UC- Get guess pages"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5ef3beac-786f-4b7f-8d1f-1e20e8a32eb4"
+            isDerived="false"
+            sourceEndRoleName="NorthWind DataBase"
+            targetEndRoleName="UC - Get members pages"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f8bc7ba4-7e9a-481f-a8a0-9957c5b03da5"
+              LastKnownName="UC - Get members pages"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="81b85dd3-504f-429b-ab78-cd78830ff659"
+                  name="NorthWind DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26a35b5d-79eb-43fb-8c54-3d7e2caaffac"
+                  name="UC - Get members pages"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d7e6a8ad-7b06-4cb1-87e9-5916652aaeb3"
+            isDerived="false"
+            sourceEndRoleName="NorthWind DataBase"
+            targetEndRoleName="UC - Get admin pages"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b20d45e8-4f8b-4592-87d4-6faa111f06ad"
+              LastKnownName="UC - Get admin pages"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fbcc13bf-ef7b-453c-806b-6228a01fda52"
+                  name="NorthWind DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="48aee659-8f8f-426f-b5ab-057464314e3c"
+                  name="UC - Get admin pages"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="9d3f4f0b-573c-4770-9676-8bf2309748cb"
+        name="NorthWindUsers DataBase"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a1cd6084-23c5-45f8-a71e-ebe8bec7d372"
+            isDerived="false"
+            sourceEndRoleName="NorthWindUsers DataBase"
+            targetEndRoleName="UC - Authenticat"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fa6a2338-08e6-437b-b12e-22b233b886b2"
+              LastKnownName="UC - Authenticat"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a191cc1c-cc80-47d5-ab34-19625f661736"
+                  name="NorthWindUsers DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c25d058b-491d-405f-ab80-a5f56216a2ad"
+                  name="UC - Authenticat"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c8dc5217-07e2-40fd-a26e-e42fd1c7e62c"
+            isDerived="false"
+            sourceEndRoleName="NorthWindUsers DataBase"
+            targetEndRoleName="UC - Register"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d578308f-e394-49ad-a219-42f6dc24b49e"
+              LastKnownName="UC - Register"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4a0387a9-c0ff-4fa3-98fb-908919f8a854"
+                  name="NorthWindUsers DataBase"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b6806ffb-ea25-41bf-b74d-dae75b232b4c"
+                  name="UC - Register"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2c0cb8e8-a447-45d0-ac4d-d02369dd2d72"
+        name="UC- Get guess pages"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"
+            LastKnownName="Subsystem-NorthWind"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b20d45e8-4f8b-4592-87d4-6faa111f06ad"
+        name="UC - Get admin pages"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="58ca1f16-533c-4946-835b-8725f4902608">
+            <useCaseMoniker
+              Id="fa6a2338-08e6-437b-b12e-22b233b886b2"
+              LastKnownName="UC - Authenticat"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"
+            LastKnownName="Subsystem-NorthWind"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f8bc7ba4-7e9a-481f-a8a0-9957c5b03da5"
+        name="UC - Get members pages"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="2165d39f-8b23-4222-b0b7-46cde45184a9">
+            <useCaseMoniker
+              Id="fa6a2338-08e6-437b-b12e-22b233b886b2"
+              LastKnownName="UC - Authenticat"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"
+            LastKnownName="Subsystem-NorthWind"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="0adb8516-7564-4089-8473-ba884ca81040"
+        name="Guess"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="76689797-0d13-4f7e-b6b6-1613a2367f0a"
+            isDerived="false"
+            sourceEndRoleName="Guess"
+            targetEndRoleName="UC- Get guess pages"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2c0cb8e8-a447-45d0-ac4d-d02369dd2d72"
+              LastKnownName="UC- Get guess pages"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f275bf4-356e-46f9-a1e6-dadfdad646f6"
+                  name="Guess"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f44939f0-f743-48ec-8909-b00d291f8f56"
+                  name="UC- Get guess pages"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7d504f92-45ba-493d-846d-40107df1f319"
+            isDerived="false"
+            sourceEndRoleName="Guess"
+            targetEndRoleName="UC - Register"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d578308f-e394-49ad-a219-42f6dc24b49e"
+              LastKnownName="UC - Register"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fcf5b2c3-0545-438b-ac35-f024cfbe5abe"
+                  name="Guess"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c7f85ca6-ca9e-4bbd-a6d7-d2128d12b314"
+                  name="UC - Register"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fa6a2338-08e6-437b-b12e-22b233b886b2"
+        name="UC - Authenticat"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"
+            LastKnownName="Subsystem-NorthWind"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d578308f-e394-49ad-a219-42f6dc24b49e"
+        name="UC - Register"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"
+            LastKnownName="Subsystem-NorthWind"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

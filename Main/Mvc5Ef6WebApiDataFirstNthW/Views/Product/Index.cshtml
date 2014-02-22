@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Mvc5Ef6WebApiDataFirstNthW.Models.Product>
+
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Products";
+    ViewBag.Description = "List of the products";
+}
+@section PrintToPdf
+{
+    @Html.ActionLink("PDF", ViewContext.RouteData.GetRequiredString("action") + "ToPdf", ViewContext.RouteData.GetRequiredString("controller"))
+    @*@Html.ActionLink("PDF", null , "PrintToPDf?action=" + ViewContext.RouteData.GetRequiredString("action")+",controller=" + ViewContext.RouteData.GetRequiredString("controller"))*@
+}
+
+@section styles
+    {
+    <style type="text/css">
+        @@media print {
+            footer, #tdNotPrinted, #divNotPrinted, #pNotPrinted {
+                display: none;
+            }
+
+            @@page {
+                margin: 0cm;
+            }
+
+            header:after {
+                content: "www.smashing-winery.com";
+            }
+
+            header:before {
+                display: block;
+                content: "Thank you for printing our content at www.smashing-winery.com. Please check back soon for new offers on delicious wine from our winery.";
+                margin-bottom: 10px;
+                border: 1px solid #bbb;
+                padding: 3px 5px;
+                font-style: italic;
+            }
+        }
+    </style>
+}
+
+<header></header>
+
+<h2>@ViewBag.Title</h2>
+<div class="table-responsive, container-fluid">
+    <table class="table table-striped table-bordered table-hover table-condensed">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityPerUnit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitsInStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitsOnOrder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReorderLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discontinued)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Supplier.CompanyName)
+            </th>
+            <th></th>
+        </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.QuantityPerUnit)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitsInStock)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitsOnOrder)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReorderLevel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Discontinued)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Supplier.CompanyName)
+                    </td>
+                </tr>
+            }
+    </table>
+</div>

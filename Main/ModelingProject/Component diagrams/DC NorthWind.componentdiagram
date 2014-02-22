@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm12="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="b9254240-8806-40fb-b434-8f67801e6fdf" name="DC NorthWind" linkedPackageId="191d2793-2900-4152-a943-13d88e885590" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="ce1a3071-cc7e-4cf8-8051-e5803894cd34" name="NorthWind Web Site" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f86ca0a1-0b93-4c17-a46e-2ff9f2d8a641" />
+        <suppliersInternal>
+          <dependency Id="2f05b158-62e2-43fe-b06b-56f67d70650d">
+            <componentMoniker Id="37d67926-b066-40f9-a02d-0e10930577cc" LastKnownName="NorthWind Domain" />
+            <elementDefinition Id="f6a31074-edba-4b53-ac86-2a3001ceaaa1" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="37d67926-b066-40f9-a02d-0e10930577cc" name="NorthWind Domain" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5d1dd228-f7ba-43ee-8de2-6e8d00e67765" />
+        <suppliersInternal>
+          <dependency Id="ef36669d-3092-4c3a-b74d-d38178865254">
+            <componentMoniker Id="98061e5c-9073-43e6-8d01-0c8f565af55b" LastKnownName="DataBase access" />
+            <elementDefinition Id="f2823dda-c0a8-4fb4-bf7c-27207ef002f6" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="98061e5c-9073-43e6-8d01-0c8f565af55b" name="DataBase access" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5b9437e0-8004-45c2-9c7c-4ff66bd13a9e" />
+        <suppliersInternal>
+          <dependency Id="d8ce916f-5362-4d23-bd14-12b17cb09fed">
+            <componentMoniker Id="499576df-a90b-4b9f-b00b-11c5cfa3ae54" LastKnownName="NorthWind DataBase" />
+            <elementDefinition Id="43a0986f-4d4d-4b5b-8643-9cc64f2867c2" />
+          </dependency>
+          <dependency Id="26292cae-c2cc-49db-abe5-c76068260f54">
+            <componentMoniker Id="5c3d06eb-f149-4084-8c5d-0f56bab5f2e7" LastKnownName="NorthWindUsers DataBase" />
+            <elementDefinition Id="5b7ec81a-80ad-4a7b-b84d-120661b6af91" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="499576df-a90b-4b9f-b00b-11c5cfa3ae54" name="NorthWind DataBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ee5059d5-9799-452c-bc63-39a11ea700da" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="5c3d06eb-f149-4084-8c5d-0f56bab5f2e7" name="NorthWindUsers DataBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e3e4886b-ca6f-4ef9-9ad6-bd3c97a91f27" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="191d2793-2900-4152-a943-13d88e885590" name="NorthWindModelingProject">
+    <elementDefinition Id="c1146d6d-f7df-4695-a7f7-5ffb70dee040" />
+    <profileInstances>
+      <packageHasProfileInstances Id="51997811-ba07-4d28-9e5f-4cb184884167">
+        <profileInstance Id="56e9359d-b4e5-4c06-97ed-bcda3bafc6d3" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6def78d3-de59-44e9-999c-06022529da5e">
+        <profileInstance Id="92709d0d-0bea-4920-970d-a3578b0669f3" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3298086b-08e4-4284-a24d-853559fb34e9">
+        <profileInstance Id="5d898a18-4c7a-4703-81d7-a93ea27f5482" name="CSharpProfile">
+          <elementDefinition Id="9781e3ff-af43-414a-a2a8-2f28b4d6cc73" />
+        </profileInstance>
+        <elementDefinition Id="08635d40-97e4-4054-9412-4779f4cd50fc" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>
