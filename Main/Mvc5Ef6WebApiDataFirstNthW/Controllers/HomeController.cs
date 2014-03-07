@@ -29,7 +29,11 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
             ViewBag.Message = "About us.";
             return View();
         }
-
+        public ActionResult Video()
+        {
+            ViewBag.Message = "HTML 5 Videos";
+            return View();
+        }
 
         #region Test actions
                 public ActionResult Carousel()

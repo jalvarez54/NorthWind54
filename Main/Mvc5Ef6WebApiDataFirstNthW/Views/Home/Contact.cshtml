@@ -7,15 +7,16 @@
 <h3>@ViewBag.Message</h3>
 <label>José ALVAREZ</label> 
 <summary>Ingénieur ESME Sudria</summary>
-<summary>Professeur Certifié en Génie Electrique (Electronique)</summary>
+<summary>Professeur Certifié en Sciences de l'ingénieur option Informatique et Numérique</summary>
 <summary>Microsoft Certified Professional (MCP)</summary>
 <summary>Enseignant BTS Informatique et Réseaux (IRIS)</summary>
 <summary><a href="http://jalvarez54.wordpress.com/" target="_blank">My WordPress</a></summary>
 <hr />
 <label>@Utils.GetConfigCompanyName()</label>
-<address title="Click to see more details">@Utils.GetConfigCompanyAddress()</address>
+<address title="Click to see more details" >@Utils.GetConfigCompanyAddress()</address>
 <abbr title="Phone">Tel. :</abbr>0383352714
 <abbr title="Fax">Fax :</abbr>0383352612
+<hr />
 <div class="panel panel-default">
     <div class="panel-heading">
         <h4 class="panel-title">
@@ -30,10 +31,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;$(document).ready(<span style="color:blue;">function</span>&nbsp;()&nbsp;{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;geocoder&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.Geocoder();
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;infowindow&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.InfoWindow();
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;latlng&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.LatLng(-34.397,&nbsp;150.644);
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;mapOptions&nbsp;=&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zoom:&nbsp;15,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;center:&nbsp;latlng
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scrollwheel:&nbsp;<span style="color:blue;">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mapTypeId:&nbsp;google.maps.MapTypeId.ROADMAP,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zoom:&nbsp;18,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;map&nbsp;=&nbsp;<span style="color:blue;">new</span>&nbsp;google.maps.Map(document.getElementById(<span style="color:#a31515;">&quot;map-canvas&quot;</span>),&nbsp;mapOptions);
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue;">var</span>&nbsp;address&nbsp;=&nbsp;$(<span style="color:#a31515;">&#39;address&#39;</span>).text();
@@ -80,10 +81,10 @@
         $(document).ready(function () {
             var geocoder = new google.maps.Geocoder();
             var infowindow = new google.maps.InfoWindow();
-            var latlng = new google.maps.LatLng(-34.397, 150.644);
             var mapOptions = {
-                zoom: 15,
-                center: latlng
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                zoom: 18,
             }
             var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
             var address = $('address').text();

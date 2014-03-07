@@ -18,8 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{616303
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98EF5B61-1DA2-4424-A832-9FE738755379}"
 	ProjectSection(SolutionItems) = preProject
-		CatchHandledException.snippet = CatchHandledException.snippet
-		CatchHandledFatalException.snippet = CatchHandledFatalException.snippet
+		Snippets\CatchHandledException.snippet = Snippets\CatchHandledException.snippet
+		Snippets\CatchHandledFatalException.snippet = Snippets\CatchHandledFatalException.snippet
 		NWHistory.txt = NWHistory.txt
 		SharedCommonInfosAssemblyInfo.cs = SharedCommonInfosAssemblyInfo.cs
 	EndProjectSection

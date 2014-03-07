@@ -35,8 +35,12 @@
         <hr />
         <footer>
             @MyRazorHelpers.FooterInformations()
-            @MyRazorHelpers.DevFooterInformations()
+            @if (Utils.IsDemoExceptionLinksEnabled() && Mvc5Ef6WebApiDataFirstNthW.Models.IdentityManager.IsUserInRole("dev"))
+            {
+                @MyRazorHelpers.DevFooterInformations()
+            }
         </footer>
+        @MyRazorHelpers.FixTab()
 
     </div>
     @Scripts.Render("~/bundles/jquery")

@@ -2,32 +2,92 @@
 
 @*http://rdonfack.developpez.com/tutoriels/dotnet/creation-pages-web-asp-net-utilisant-moteur-vue-razor/?page=page_6*@
 
-@helper FooterInformations()
+@helper Technos()
 {
-    <div class="container body-content">
-        <p class="text-info">
-            [Société: @Utils.GetConfigCompanyName()]<br />
-            [App: @Utils.GetAssemblyProduct()][File Version: @Utils.GetAssemblyVersion()][Product Version: @Utils.GetAssemblyInformationnalVersion()]<br />
-            [Conception: @Utils.GetAssemblyCompany()]<br />
-            [@Utils.GetAssemblyCopyright()]<br />
-            [User: @Utils.GetUserName()][Culture: @Utils.GetCulture()][UIculture: @Utils.GetUiCulture()]<br />
-        </p>
-    </div>
+    <ul>
+        <li>Visual Studio 2013 Ultimate</li>
+        <li>ASP.NET MVC5</li>
+        <li>Data base first</li>
+        <li>WebAPI2</li>
+        <li>Bootstrap 3</li>
+        <li>Razor</li>
+        <li>Razor helpers (Extension method & Declarative)</li>
+        <li>Annotation and filters (CustomFiltersAttributes)</li>
+        <li>Elmah, log4net, Glimpse and rotativa for pdf support</li>
+        <li>Styles for printing</li>
+        <li>System diagnostics trace</li>
+        <li>JQuery</li>
+        <li>Ajax</li>
+        <li>Internationalization (us for neutral, fr)</li>
+        <li>web.Config transformation</li>
+        <li>Error Handling</li>
+        <li>Helpers for tracing</li>
+        <li>Carousel</li>
+        <li>Area (Administration with page protected: user="admin" / pasword=p@ssword</li>
+        <li>ASP.NET Identity  (with extension and users management) </li>
+        <li>File upload for user photo and validation [ValidateFile]</li>
+        <li> Code snippets</li>
+        <li>Razor EditorTemplate</li>
+        <li>Googlemaps</li>
+        <li>HTML5 Video</li>
+    </ul>
 
 }
+@helper FixTab()
+{
+    if (!Request.Browser.IsMobileDevice)
+    {
+        <div class="divNotPrinted uv-tab">
+            <a class="uv-tab-label" href="https://northwind54.codeplex.com/discussions" target="_blank">
+                <img style="border:0; background-color: transparent; padding:0; margin:0;" alt="Feedback" src="/NorthWind/Content/images/feedback-tab.png">
+            </a>
+        </div>
+    }
+}
+@helper AddThis()
+{
+    <!-- AddThis Button BEGIN -->
+        <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-5316de7341cbf6b7" > <span class="glyphicon glyphicon-share"></span> Share</a>
+        <script type="text/javascript">var addthis_config = { "data_track_addressbar": true };</script>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5316de7341cbf6b7"></script>
+    <!-- AddThis Button END -->
+}
+@helper FooterInformations()
+{
+    <div class="well well-sm">
+        @if (!Request.Browser.IsMobileDevice)
+        {
+
+            <div class="text-info" style="text-align:center;font-size:smaller">
+                Société: @Utils.GetConfigCompanyName() |
+                App: @Utils.GetAssemblyProduct() | File Version: @Utils.GetAssemblyVersion() | Product Version: @Utils.GetAssemblyInformationnalVersion() |
+                Conception: @Utils.GetAssemblyCompany() |
+                @Utils.GetAssemblyCopyright()<br />
+                [User: @Utils.GetUserName()][Culture: @Utils.GetCulture()][UIculture: @Utils.GetUiCulture()]<br />
+            </div>
+        }
+        else
+        {
+            <div class="text-info" style="font-size:smaller">
+                Product Version: @Utils.GetAssemblyInformationnalVersion()
+            </div>
+        }
+    </div>
+}
+        }
 @helper DevFooterInformations()
 {
-    <div class="container body-content">
-        <hr />
-        <p class="text-info">
-            [Status: @Utils.GetApplicationStatus()]
-            [Compilation Mode: @Utils.GetCompilationMode()]<br />
-            [IsDebuggingEnabled: @Utils.IsDebuggingEnabled()]
-            [IsAspNetTraceEnabled: @Utils.IsAspNetTraceEnabled()]
-            [CustomErrorEnabled: @Utils.IsCustomErrorEnabled()]<br />
-            [NORTHWNDEntities: @Utils.GetCnxNORTHWNDEntities()]<br />
-            [DefaultConnection: @Utils.GetCnxDefaultConnection()]<br />
-        </p>
+    <div class="well well-sm">
+        <div class="text-info" style="text-align:left;font-size:smaller;font-style:italic">Use:  &lt;add key=&quot;ShowDemoExceptionLinks&quot; value=&quot;false&quot; /&gt; in Web.Config to configure.</div>
+        <div class="text-danger" style="text-align:left;font-size:smaller">
+            * Status: @Utils.GetApplicationStatus() |
+            Compilation Mode: @Utils.GetCompilationMode() |
+            IsDebuggingEnabled: @Utils.IsDebuggingEnabled() |
+            IsAspNetTraceEnabled: @Utils.IsAspNetTraceEnabled() |
+            CustomErrorEnabled: @Utils.IsCustomErrorEnabled()<br />
+            * NORTHWNDEntities: @Utils.GetCnxNORTHWNDEntities()<br />
+            * DefaultConnection: @Utils.GetCnxDefaultConnection()
+        </div>
     </div>
 }
 @helper AdminInformations()

@@ -8,6 +8,18 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.navbar-inverse {
+    background-color: #204a76;
+    border-color: #123252;
+}
+/*.navbar-inverse {
+    background-color: #2C3E50;
+    border-color: #202D3B;
+}*/
+/*.navbar-inverse {
+    background-color: #333333;
+    border-color: #222222;
+}*/
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,

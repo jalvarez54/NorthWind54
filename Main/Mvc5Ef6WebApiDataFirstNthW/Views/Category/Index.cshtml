@@ -6,106 +6,15 @@
 }
 @section PrintToPdf
 {
-    @Html.ActionLink("PDF", ViewContext.RouteData.GetRequiredString("action")+"ToPdf", ViewContext.RouteData.GetRequiredString("controller"))
+    @Html.ActionLink("PDF", ViewContext.RouteData.GetRequiredString("action") + "ToPdf", ViewContext.RouteData.GetRequiredString("controller"),null, new { @class = "pdfMenu"})
 }
 
-@section styles
-    {
-    <style type="text/css">
-        @@media print {
-            footer, #pNotPrinted, #buttonNotPrinted {
-                display: none;
-            }
-
-            #h3PageBreak {
-                page-break-before: always;
-            }
-
-            @@page {
-                margin: 0cm;
-            }
-
-            header:after {
-                content: "jow-alva.net/NorthWind";
-            }
-
-            header:before {
-                display: block;
-                content: "Thank you for printing.";
-                margin-bottom: 10px;
-                border: 1px solid #bbb;
-                padding: 3px 5px;
-                font-style: italic;
-            }
-        }
-    </style>
-}
 <header></header>
 
 <h2>@ViewBag.Title</h2>
-@*<p id="pNotPrinted">
-        @Html.ActionLink("Create New", "Create")
-    </p>*@
-<h3>Responsive table</h3>
-<div class="table-responsive, container-fluid">
-    <table class="table table-striped table-bordered table-hover table-condensed">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CategoryName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Picture)
-            </th>
-            @*<th></th>*@
-        </tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td data-title=@Html.DisplayNameFor(model => model.CategoryName)>
-                    @Html.DisplayFor(modelItem => item.CategoryName)
-                </td>
-                <td data-title=@Html.DisplayNameFor(model => model.Description)>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                @*First method code inline*@
-                @*@{byte[] photo = item.Picture;
-                        string imageSrc = null;
-                        if (photo != null)
-                        {
-                            MemoryStream ms = new MemoryStream();
-                            ms.Write(photo, 78, photo.Length - 78); // strip out 78 byte OLE header (don't need to do this for normal images)
-                            string imageBase64 = Convert.ToBase64String(ms.ToArray());
-                            imageSrc = string.Format("data:image/png;base64,{0}", imageBase64);
-                        }
-                    }*@
-                <td data-title=@Html.DisplayNameFor(model => model.Picture)>
-                    @*First method*@
-                    @*<img class="img-responsive" src="@imageSrc" title="@item.CategoryName" alt="@item.CategoryName" border="0" />*@
-                    @*Second method with Utils ByteToStringImage*@
-                    @*<img class="img-responsive" src="@Utils.ByteToStringImage(item.Picture)" title="@item.CategoryName " alt="@item.CategoryName " border="0" />*@
-                    @*Third method with HtmlHelper Image and ByteToStringImage*@
-                    @*@Html.Image("img-responsive", Utils.ByteToStringImage(item.Picture), item.CategoryName, item.CategoryName, "0")*@
-                    @*Fourth method with razor helper TagImage*@
-                    @MyRazorHelpers.TagImage("img-responsive", item.Picture, @item.CategoryName, @item.CategoryName, "0")
-                </td>
 
-                @*<td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.CategoryID }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.CategoryID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.CategoryID })
-                    </td>*@
-            </tr>
-        }
-
-
-    </table>
-</div>
-
-<h3 id="h3PageBreak">Responsive table plus No More Table</h3>
-<section class="container-fluid" id="no-more-tables" >
+<h3>Responsive table plus No More Table</h3>
+<section id="no-more-tables">
     <table class="table-bordered table-striped table-condensed cf">
 
         <thead class="cf">
@@ -119,7 +28,7 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Picture)
                 </th>
-                @*<th></th>*@
+                @*<th class="tdNotPrinted">Your choice</th>*@
             </tr>
         </thead>
         <tbody>
@@ -132,21 +41,12 @@
                     <td data-title=@Html.DisplayNameFor(model => model.Description)>
                         @Html.DisplayFor(modelItem => item.Description)
                     </td>
-                    @{byte[] photo = item.Picture;
-                    string imageSrc = null;
-                    if (photo != null)
-                    {
-                        MemoryStream ms = new MemoryStream();
-                        ms.Write(photo, 78, photo.Length - 78); // strip out 78 byte OLE header (don't need to do this for normal images)
-                        string imageBase64 = Convert.ToBase64String(ms.ToArray());
-                        imageSrc = string.Format("data:image/png;base64,{0}", imageBase64);
-                    }
-                    }
                     <td data-title=@Html.DisplayNameFor(model => model.Picture)>
-                        <img class="img-responsive" src="@imageSrc" title="@item.CategoryName" alt="@item.CategoryName" border="0" />
+                        @*Third method with HtmlHelper Image and ByteToStringImage*@
+                        @Html.Image("img-responsive", Utils.ByteToStringImage(item.Picture), item.CategoryName, item.CategoryName, "0")
                     </td>
 
-                    @*<td>
+                    @*<td id="tdNotPrinted">
                             @Html.ActionLink("Edit", "Edit", new { id = item.CategoryID }) |
                             @Html.ActionLink("Details", "Details", new { id = item.CategoryID }) |
                             @Html.ActionLink("Delete", "Delete", new { id = item.CategoryID })
@@ -160,3 +60,63 @@
 
 </section>
 
+<h3 id="h3PageBreak">Responsive table</h3>
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover table-condensed">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CategoryName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Picture)
+                </th>
+                @*<th class="tdNotPrinted">Your choice</th>*@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td data-title=@Html.DisplayNameFor(model => model.CategoryName)>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td data-title=@Html.DisplayNameFor(model => model.Description)>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    @*First method code inline*@
+                    @*@{byte[] photo = item.Picture;
+                            string imageSrc = null;
+                            if (photo != null)
+                            {
+                                MemoryStream ms = new MemoryStream();
+                                ms.Write(photo, 78, photo.Length - 78); // strip out 78 byte OLE header (don't need to do this for normal images)
+                                string imageBase64 = Convert.ToBase64String(ms.ToArray());
+                                imageSrc = string.Format("data:image/png;base64,{0}", imageBase64);
+                            }
+                        }*@
+                    <td data-title=@Html.DisplayNameFor(model => model.Picture)>
+                        @*First method*@
+                        @*<img class="img-responsive" src="@imageSrc" title="@item.CategoryName" alt="@item.CategoryName" border="0" />*@
+                        @*Second method with Utils ByteToStringImage*@
+                        @*<img class="img-responsive" src="@Utils.ByteToStringImage(item.Picture)" title="@item.CategoryName " alt="@item.CategoryName " border="0" />*@
+                        @*Third method with HtmlHelper Image and ByteToStringImage*@
+                        @*@Html.Image("img-responsive", Utils.ByteToStringImage(item.Picture), item.CategoryName, item.CategoryName, "0")*@
+                        @*Fourth method with razor helper TagImage*@
+                        @MyRazorHelpers.TagImage("img-responsive", item.Picture, @item.CategoryName, @item.CategoryName, "0")
+                    </td>
+
+                    @*<td class="tdNotPrinted">
+                            @Html.ActionLink("Edit", "Edit", new { id = item.CategoryID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.CategoryID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.CategoryID })
+                        </td>*@
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

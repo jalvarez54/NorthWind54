@@ -30,7 +30,6 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
             return new Rotativa.ActionAsPdf(
                            "Index") { FileName = "Categories.pdf" };
         }
-
         // GET: /Category/
         [OutputCache(Duration=30)]
         public async Task<ActionResult> Index()
@@ -38,7 +37,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
             return View(await db.Categories.ToListAsync());
         }
 
-        // GET: /Category/
+        // GET: /Category/TrunckedCategories
         [OutputCache(Duration = 30)]
         public async Task<ActionResult> TrunckedCategories()
         {
@@ -53,19 +52,22 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
            
             return View(model);
         }
-
         // GET: /Category/Details/5
         public async Task<ActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Category category = await db.Categories.FindAsync(id);
-            if (category == null)
-            {
-                return HttpNotFound();
-            }
+                if (id == null)
+                {
+                    // BUG: Don't retreive custom error with http://www.jow-alva.net/NorthWind/Product/Details/150, where 150 don't exist. Correction
+                    //return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                    throw new HttpException(404, string.Format("Category cannot be null"));
+                }
+                Category category = await db.Categories.FindAsync(id);
+                if (category == null)
+                {
+                    // BUG: Don't retreive custom error with http://www.jow-alva.net/NorthWind/Product/Details/150, where 150 don't exist. Correction
+                    //return HttpNotFound();
+                    throw new HttpException(404, string.Format("Category for id {0} was not found",id));
+                }
             return View(category);
         }
         protected override void Dispose(bool disposing)

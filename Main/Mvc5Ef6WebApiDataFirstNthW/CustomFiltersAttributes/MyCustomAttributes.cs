@@ -56,7 +56,6 @@ namespace Mvc5Ef6WebApiDataFirstNthW.CustomFiltersAttributes
                 return true;
         }
     }
-
     /// <summary>
     /// http://visualstudiomagazine.com/articles/2013/08/28/asp_net-authentication-filters.aspx
     /// </summary>

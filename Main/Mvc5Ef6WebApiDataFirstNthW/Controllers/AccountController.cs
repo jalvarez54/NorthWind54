@@ -31,7 +31,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
 
         #region "New methods"
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Dev")]
         public ActionResult Index()
         {
             var Db = new ApplicationDbContext();
@@ -46,12 +46,16 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
         }
 
         [Authorize]
-        public ActionResult Edit(string id, ManageMessageId? Message = null)
+        public ActionResult Edit(string id, ManageMessageId? message = null)
         {
+            ViewBag.StatusMessage =
+            message == ManageMessageId.RegisterSuccess ? "Le compte a été modifié avec succés."
+            : message == ManageMessageId.Error ? "Une erreur s'est produite."
+            : "";
+
             var Db = new ApplicationDbContext();
             var user = Db.Users.First(u => u.UserName == id);
             var model = new EditUserViewModel(user);
-            ViewBag.MessageId = Message;
             return View(model);
         }
         [HttpPost]
@@ -79,7 +83,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
                 }
                 else
                 {
-                    return RedirectToAction("Edit", new { id = user.UserName });
+                    return RedirectToAction("Edit", new { id = user.UserName, Message = ManageMessageId.RegisterSuccess });
                 }
             }
             model.PhotoUrl = user.PhotoUrl;
@@ -104,7 +108,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
         [Authorize(Roles = "Admin")]
         public ActionResult DeleteConfirmed(string id)
         {
-            if (id != "admin")
+            if ((id != "admin") && (id != "dev"))
             {
                 var Db = new ApplicationDbContext();
                 var user = Db.Users.First(u => u.UserName == id);
@@ -208,7 +212,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
             {
                 // Save file to disk and retreive calculated file name or null if handled exception occure
                 // if user don't provide photo then he don't want photo
-                model.PhotoUrl = Utils.SavePhotoFileToDisk(model.Photo, this, null, model.Photo == null ? true:false);
+                model.PhotoUrl = Utils.SavePhotoFileToDisk(model.Photo, this, null, model.Photo == null ? true : false);
 
                 var user = model.GetUser();
 
@@ -498,7 +502,8 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
             ChangePasswordSuccess,
             SetPasswordSuccess,
             RemoveLoginSuccess,
-            Error
+            Error,
+            RegisterSuccess
         }
 
         private ActionResult RedirectToLocal(string returnUrl)
@@ -527,19 +532,19 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
         //        UserId = userId;
         //    }
 
-            public string LoginProvider { get; set; }
-            public string RedirectUri { get; set; }
-            public string UserId { get; set; }
+        public string LoginProvider { get; set; }
+        public string RedirectUri { get; set; }
+        public string UserId { get; set; }
 
-            //public override void ExecuteResult(ControllerContext context)
-            //{
-            //    var properties = new AuthenticationProperties() { RedirectUri = RedirectUri };
-            //    if (UserId != null)
-            //    {
-            //        properties.Dictionary[XsrfKey] = UserId;
-            //    }
-            //    context.HttpContext.GetOwinContext().Authentication.Challenge(properties, LoginProvider);
-            //}
+        //public override void ExecuteResult(ControllerContext context)
+        //{
+        //    var properties = new AuthenticationProperties() { RedirectUri = RedirectUri };
+        //    if (UserId != null)
+        //    {
+        //        properties.Dictionary[XsrfKey] = UserId;
+        //    }
+        //    context.HttpContext.GetOwinContext().Authentication.Challenge(properties, LoginProvider);
+        //}
         #endregion
     }
 }

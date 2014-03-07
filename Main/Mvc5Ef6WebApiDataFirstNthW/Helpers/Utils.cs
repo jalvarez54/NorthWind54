@@ -5,6 +5,9 @@ using System.Linq;
 using System.Web;
 using System.Reflection;
 using System.Configuration;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Mvc5Ef6WebApiDataFirstNthW.Models;
 
 namespace Mvc5Ef6WebApiDataFirstNthW.Helpers
 {
@@ -116,7 +119,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Helpers
         public static String ByteToStringImage(byte[] picture)
         {
             byte[] photo = picture;
-            string imageSrc = null;
+            string imageSrc = string.Empty;
             if (photo != null)
             {
                 MemoryStream ms = new MemoryStream();
@@ -130,6 +133,13 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Helpers
         {
             Assembly assembly = HttpContext.Current.ApplicationInstance.GetType().BaseType.Assembly;
             return assembly.GetName().Name;
+        }
+        public static DateTime GetAssemblyDateTime()
+        {
+            Assembly assembly = HttpContext.Current.ApplicationInstance.GetType().BaseType.Assembly;
+            System.IO.FileInfo fileInfo = new System.IO.FileInfo(assembly.Location);
+            DateTime lastModified = fileInfo.LastWriteTime;
+            return lastModified;
         }
         public static string GetAssemblyInformationnalVersion()
         {
@@ -230,6 +240,11 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Helpers
         }
         public static bool IsDemoExceptionLinksEnabled()
         {
+            //Configuration myConfig = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration("~/NorthWind");
+            //myConfig.AppSettings.Settings.Remove("ShowDemoExceptionLinks");
+            //myConfig.AppSettings.Settings.Add("ShowDemoExceptionLinks", "false");
+            //myConfig.Save(ConfigurationSaveMode.Modified);
+            //ConfigurationManager.RefreshSection("appSettings");
             return (ConfigurationManager.AppSettings["ShowDemoExceptionLinks"].ToString() == "true");
         }
     }

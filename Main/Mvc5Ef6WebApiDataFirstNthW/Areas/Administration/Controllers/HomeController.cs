@@ -10,7 +10,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Areas.Administration.Controllers
     {
         //
         // GET: /Administration/Home/
-        [Authorize(Users="admin")]
+        [Authorize(Roles = "Admin,Dev")]
         public ActionResult Index()
         {
             return View();

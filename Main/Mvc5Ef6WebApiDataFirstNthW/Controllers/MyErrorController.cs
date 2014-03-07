@@ -61,6 +61,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
         {
             return View();
         }
+        [Authorize(Roles = "Dev")]
         public ActionResult ForTestUnHandledException()
         {
             throw new NotImplementedException();
@@ -69,6 +70,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
         /// Show SignalExceptionToElmahAndTrace usage  with try...catch in a non fatal handled exception
         /// </summary>
         /// <returns></returns>
+        [Authorize(Roles = "Dev")]
         public ActionResult ForTestHandledException()
         {
             try
@@ -91,6 +93,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
         /// Show SignalExceptionToElmahAndTrace usage with try...catch in a fatal handled exception
         /// </summary>
         /// <returns></returns>
+        [Authorize(Roles = "Dev")]
         public ActionResult ForTestHandledFatalException()
         {
             try

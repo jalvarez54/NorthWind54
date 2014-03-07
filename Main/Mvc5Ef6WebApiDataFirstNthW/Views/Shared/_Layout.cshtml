@@ -3,19 +3,19 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - NorthWind54</title>
     @RenderSection("script_google", required: false)
-        @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
-        @RenderSection("scripts1", required: false)
-        <meta name="description" content=@ViewBag.Description />
-
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        @RenderSection("styles", required: false)
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("scripts1", required: false)
+    <meta name="description" content=@ViewBag.Description />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    @RenderSection("styles", required: false)
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                 @Html.ActionLink(Utils.GetAssemblyName(), "Index", "Home", null, new { @class = "navbar-brand" })
+                @Html.ActionLink(Utils.GetAssemblyName(), "Index", "Home", null, new { @class = "navbar-brand", title = "NorthWind Home page" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -57,9 +57,6 @@
                             <li>@Html.ActionLink(_Layout.ValuesAPI, "Values", "API", null, new { target = "_blank" })</li>
                             <li>@Html.ActionLink(_Layout.VersionAPI, "Version", "API", null, new { target = "_blank" })</li>
                             <li class="divider"></li>
-                            <li class="nav-header">Bootstrap Carousel (Demo)</li>
-                            <li>@Html.ActionLink("Carousel", "Carousel", "Home")</li>
-                            <li class="divider"></li>
                             <li class="nav-header">Print (Demo)</li>
                             <li>@Html.ActionLink("PrintIndex", "PrintIndex", "Product")</li>
                             <li>@Html.ActionLink("PrintIndexAsPdf", "PrintIndexAsPdf", "Product")</li>
@@ -71,53 +68,91 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">@_Layout.Admin <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li class="nav-header">Tools</li>
-                            <li><a href="~/elmah.axd" target="_blank">@_Layout.VisuElmah</a></li>
-                            <li><a href="~/Glimpse.axd" target="_blank">@_Layout.Glimpse</a></li>
-                            <li><a href="~/Trace.axd" target="_blank">@_Layout.AspNetTrace</a></li>
-                                <li class="divider"></li>
-                                <li class="nav-header">Test exceptions (Demo)</li>
-                                <li>@Html.ActionLink(_Layout.NoController, "NoAction", "NoController")</li>
-                                <li>@Html.ActionLink(_Layout.NoAction, "NoAction", "MyError")</li>
-                                <li>@Html.ActionLink(_Layout.NoView, "NoView", "MyError")</li>
-                                <li><a href="~/nofile.aspx" target="_blank">@_Layout.NoFile</a></li>
-                                <li>@Html.ActionLink(_Layout.UnHandledException, "ForTestUnHandledException", "MyError")</li>
-                                <li>@Html.ActionLink(_Layout.HandledException, "ForTestHandledException", "MyError")</li>
-                                <li>@Html.ActionLink(_Layout.HandledFatalException, "ForTestHandledFatalException", "MyError")</li>
+                            @if (Mvc5Ef6WebApiDataFirstNthW.Models.IdentityManager.IsUserInRole("admin"))
+                            {
+                                <li><a href="~/elmah.axd" target="_blank">@_Layout.VisuElmah</a></li>
+                                <li><a href="~/Glimpse.axd" target="_blank">@_Layout.Glimpse</a></li>
+                                <li><a href="~/Trace.axd" target="_blank">@_Layout.AspNetTrace</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="#" class="alert alert-danger"><em>You must be admin</em></a></li>
+                            }
                             <li class="divider"></li>
                             <li class="nav-header">Admin Area</li>
                             <li>@Html.ActionLink("Admin users", "Index", "Account")</li>
                             <li>@Html.ActionLink("Protected page", "Index", "Home", new { area = "Administration" }, null)</li>
                             <li>@Html.ActionLink("Clean logs", "DeleteLogs", "File", new { area = "Administration" }, null)</li>
+                            <li class="divider"></li>
+                            <li class="divider"></li>
+                            <li class="nav-header">Test exceptions (Demo)</li>
+                            @if (Mvc5Ef6WebApiDataFirstNthW.Models.IdentityManager.IsUserInRole("dev"))
+                            {
+                                <li>@Html.ActionLink(_Layout.NoController, "NoAction", "NoController")</li>
+                                <li>@Html.ActionLink(_Layout.NoAction, "NoAction", "MyError")</li>
+                                <li>@Html.ActionLink(_Layout.NoView, "NoView", "MyError")</li>
+                                <li>@Html.ActionLink(_Layout.DetailsNull, "Details/", "Category")</li>
+                                <li>@Html.ActionLink(_Layout.DetailsNotExist, "Details/150", "Product")</li>
+                                <li><a href="~/nofile.aspx" target="_blank">@_Layout.NoFile</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="#" class="alert alert-danger"><em>You must be developper</em></a></li>
+                            }
+
+                            <li>@Html.ActionLink(_Layout.UnHandledException, "ForTestUnHandledException", "MyError")</li>
+                            <li>@Html.ActionLink(_Layout.HandledException, "ForTestHandledException", "MyError")</li>
+                            <li>@Html.ActionLink(_Layout.HandledFatalException, "ForTestHandledFatalException", "MyError")</li>
+                            <li class="divider"></li>
+                            <li class="nav-header">Bootstrap Carousel (Demo)</li>
+                            <li>@Html.ActionLink("Carousel", "Carousel", "Home")</li>
+                            <li class="nav-header">HTML5 video (Demo)</li>
+                            <li>@Html.ActionLink("HTML5 video", "Video", "Home")</li>
                         </ul>
                     </li>
 
-                    <li>@RenderSection("PrintToPdf", required: false)</li>
-                    <li><a href="#" onclick="window.print()">Print</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span> @_Layout.Help<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="window.print()">@_Layout.Print</a></li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink(_Layout.Contact, "Contact", "Home")</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink(_Layout.About, "About", "Home")</li>
+                        </ul>
+                    </li>
+                </ul>
 
-                    <li>@Html.ActionLink(_Layout.About, "About", "Home")</li>
-                    <li>@Html.ActionLink(_Layout.Contact, "Contact", "Home")</li>
-                    
+                <ul class="nav  navbar-nav">
+                    <li>@MyRazorHelpers.AddThis()</li>
+                    <li><a href="http://www.jow-alva.net/" target="_blank" title="My Ikoula root site..."><span class="glyphicon glyphicon-share-alt"></span></a></li>
+                </ul>
+
+                <ul class="nav  navbar-nav">
+                    <li>@RenderSection("PrintToPdf", required: false)</li>
                 </ul>
 
                 @Html.Partial("_LoginPartial")
+
             </div>
         </div>
     </div>
     <div class="container body-content">
         @RenderSection("Carousel", required: false)
         @RenderBody()
-        <hr />
         <footer>
             @MyRazorHelpers.FooterInformations()
-            @if (Utils.IsDemoExceptionLinksEnabled())
+            @if (Utils.IsDemoExceptionLinksEnabled() && Mvc5Ef6WebApiDataFirstNthW.Models.IdentityManager.IsUserInRole("dev"))
             {
                 @MyRazorHelpers.DevFooterInformations()
             }
         </footer>
-
+        @MyRazorHelpers.FixTab()
     </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
+
+
 </html>

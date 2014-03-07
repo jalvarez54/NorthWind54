@@ -2,24 +2,20 @@
     ViewBag.Title = "Home Page";
 }
 
-<!-- Begin Modal -->
 @section scripts {
     <script type="text/javascript">
-        $('#myModal').modal('show');
+        $('#popoverData').tooltip();
     </script>
 }
-@Html.Partial("_ModalPartial")
-<!-- End Modal -->
+
 <div class="jumbotron">
     <h1>NorthWind54</h1>
     <p class="lead">
         NorthWind revisited with <strong><abbr title="Active Server Page for .NET">ASP.NET</abbr> <abbr title="Model-View-Controller">MVC</abbr>5</strong>.
     </p>
-    <p class="small alert alert-danger">When authentication is required: <strong>UserName="admin" Password="p@ssword"</strong></p>
-    <p class="text-right">[<span class="glyphicon glyphicon-print"></span> (pdf)]: <em>Signal printable to pdf, see <strong>PDF</strong> button appearing in nav bar.</em></p>
     <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-            Code On <span class="caret"></span>
+        <button id="popoverData" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-content="Popover with data-trigger" data-placement="top" data-original-title="Full code on..." data-trigger="hover">
+            <span class="glyphicon glyphicon-file"></span> Code On <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" role="menu">
             <li><a href="http://northwind54.codeplex.com/" target="_blank">Code on CodePlex</a></li>
@@ -27,6 +23,18 @@
         </ul>
     </div>
 </div>
+<blockquote>
+    <p style="font-size:large"> Usage:</p>
+
+    <footer>Some code is protected with <strong>"Annotation"</strong> and other with <strong>"IsUserInRole().</strong>"</footer>
+    <footer>When authentication is required: UserName="<strong>admin OR dev</strong>" Password="<strong>p@ssword</strong>".</footer>
+    <footer>[<span class="glyphicon glyphicon-print"></span> (pdf)] = <em>pdf printable, see</em> <strong>PDF</strong> <em>button appearing in nav bar.</em></footer>
+    <footer></footer>
+    <footer>For Category and Product <strong>Details</strong> enter manualy the URL.</footer>
+    <footer>Ex: <a href="http://www.jow-alva.net/NorthWind/Category/Details/5">http://www.jow-alva.net/NorthWind/Category/Details/5</a></footer>
+    <footer>Ex: <a href="http://www.jow-alva.net/NorthWind/Product/Details/5">http://www.jow-alva.net/NorthWind/Product/Details/5</a></footer>
+
+</blockquote>
 
 <div class="row">
     <div class="col-md-4">
@@ -40,25 +48,7 @@
             </div>
             <div id="collapseOne" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>
-                        ASP.NET MVC5,
-                        Data base first,
-                        WebAPI2,
-                        Bootstrap 3,
-                        Razor,
-                        Razor helpers,
-                        Annotation and filters (CustomFiltersAttributes),
-                        Styles for printing,
-                        System diagnostics trace,
-                        JQuery,
-                        Ajax,
-                        Internationalization (us for neutral, fr),
-                        web.Config transformation,
-                        Error Handling,
-                        Helpers for tracing,
-                        Carousel,
-                        Area
-                    </p>
+                    @MyRazorHelpers.Technos()
                     <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
                 </div>
             </div>
@@ -93,7 +83,8 @@
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
                     <ul>
-                        <li><a href="http://northwind54.codeplex.com/">Code on CodePlex</a></li>
+                        <li><a href="http://northwind54.codeplex.com/" target="_blank">Code on CodePlex</a></li>
+                        <li><a href="http://github.com/jalvarez54/NorthWind54/" target="_blank">Code on GitHub</a></li>
                         <li><a href="http://jalvarez54.wordpress.com/" target="_blank">My WordPress</a></li>
                     </ul>
                     <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
@@ -102,4 +93,4 @@
         </div>
     </div>
 </div>
-
+@*<a id="popoverData" class="btn" href="#" data-content="Popover with data-trigger" rel="tooltip" data-placement="bottom" data-original-title="Title" data-trigger="hover">Popover with data-trigger</a>*@

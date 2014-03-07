@@ -56,9 +56,7 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
             pp.PageOrientation = Rotativa.Options.Orientation.Landscape;           
             return pp;
         }
-
         // GET: /Product/
-        //public ActionResult Index()
         public ViewResult Index()
         {
             //Helpers.MyTracer.MyTrace(System.Diagnostics.TraceLevel.Info, this.GetType().ToString(),
@@ -71,123 +69,31 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Controllers
         }
 
         // GET: /Product/
-        //public ActionResult Index()
         public ViewResult SortedProducts(int? page)
         {
-            //Helpers.MyTracer.MyTrace(System.Diagnostics.TraceLevel.Info, this.GetType().ToString(),
-            //    System.Reflection.MethodBase.GetCurrentMethod().Name, "Test tracage classique", null);
-            //var products = db.Products.Include(p => p.Category).Include(p => p.Supplier);
-            //return View(products.ToList());
             var products = db.Products.Include(p => p.Category).Include(p => p.Supplier).OrderBy(s => s.ProductName);
             int pageSize = 10;
             int pageNumber = (page ?? 1);
             return View(products.ToPagedList(pageNumber, pageSize));
-
         }
-
         // GET: /Product/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                // BUG: Don't retreive custom error with http://www.jow-alva.net/NorthWind/Product/Details/150, where 150 don't exist. Correction
+                //return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                throw new HttpException(404, string.Format("Product id cannot be null"));
             }
             Product product = db.Products.Find(id);
             if (product == null)
             {
-                return HttpNotFound();
+                // BUG: Don't retreive custom error with http://www.jow-alva.net/NorthWind/Product/Details/150, where 150 don't exist. Correction
+                //return HttpNotFound();
+                throw new HttpException(404, string.Format("Product for id {0} was not found", id));
             }
             return View(product);
         }
-        // GET: /Product/Create
-        //[AuthorizationAttribute]
-        public ActionResult Create()
-        {
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName");
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName");
-            return View();
-        }
-
-        // POST: /Product/Create
-        // Afin de déjouer les attaques par sur-validation, activez les propriétés spécifiques que vous voulez lier. Pour 
-        // plus de détails, voir  http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="ProductID,ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Products.Add(product);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName", product.SupplierID);
-            return View(product);
-        }
-
-        // GET: /Product/Edit/5
-        public ActionResult Edit(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName", product.SupplierID);
-            return View(product);
-        }
-
-        // POST: /Product/Edit/5
-        // Afin de déjouer les attaques par sur-validation, activez les propriétés spécifiques que vous voulez lier. Pour 
-        // plus de détails, voir  http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="ProductID,ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(product).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.SupplierID = new SelectList(db.Suppliers, "SupplierID", "CompanyName", product.SupplierID);
-            return View(product);
-        }
-
-        // GET: /Product/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
-        }
-
-        // POST: /Product/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            Product product = db.Products.Find(id);
-            db.Products.Remove(product);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
-
         protected override void Dispose(bool disposing)
         {
             if (disposing)

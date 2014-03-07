@@ -124,6 +124,33 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Resources.Views.Shared {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Details NotExist.
+        /// </summary>
+        public static string DetailsNotExist {
+            get {
+                return ResourceManager.GetString("DetailsNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Details IdNull.
+        /// </summary>
+        public static string DetailsNull {
+            get {
+                return ResourceManager.GetString("DetailsNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Developper.
+        /// </summary>
+        public static string Dev {
+            get {
+                return ResourceManager.GetString("Dev", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Glimpse.
         /// </summary>
         public static string Glimpse {
@@ -147,6 +174,15 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Resources.Views.Shared {
         public static string HandledFatalException {
             get {
                 return ResourceManager.GetString("HandledFatalException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Help.
+        /// </summary>
+        public static string Help {
+            get {
+                return ResourceManager.GetString("Help", resourceCulture);
             }
         }
         
@@ -219,6 +255,15 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Resources.Views.Shared {
         public static string NoView {
             get {
                 return ResourceManager.GetString("NoView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Print page.
+        /// </summary>
+        public static string Print {
+            get {
+                return ResourceManager.GetString("Print", resourceCulture);
             }
         }
         

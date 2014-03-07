@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="0463996c-9a35-474e-a30c-c821e9fa4e64" name="UC NorthWindContext" linkedPackageId="c615ec36-fcc4-4802-8157-55a72268bb4e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="c15065d9-02e8-4d46-b325-386656d47117">
-      <profileInstance Id="55af2308-c1a2-4cd1-855d-1ec81c56e7ed" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="d8660851-c4d5-4f8a-ab69-ca6ff8dc0508">
-      <profileInstance Id="243af476-cef0-470a-8b6c-93baca2ae57a" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="afd131d5-a870-4176-b161-0ceda9871b32">
-      <profileInstance Id="a78ecaba-efc7-4015-a82a-bd998df88e9c" name="CSharpProfile">
-        <elementDefinition Id="9781e3ff-af43-414a-a2a8-2f28b4d6cc73" />
-      </profileInstance>
-      <elementDefinition Id="08635d40-97e4-4054-9412-4779f4cd50fc" />
-    </packageHasProfileInstances>
-  </profileInstances>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="0463996c-9a35-474e-a30c-c821e9fa4e64" name="UC NorthWindContext" linkedPackageId="c615ec36-fcc4-4802-8157-55a72268bb4e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="febec61d-34cd-4c6d-a011-2ec3835c580c" name="Member" isAbstract="false" isLeaf="false">
@@ -269,8 +249,71 @@
         </subjects>
       </useCase>
     </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="d08b320d-a268-4d68-9c3d-a2ac42edbd17" name="Developper" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="22382378-5167-407e-b59e-45799862c8cd" />
+        <generalsInternal>
+          <generalization Id="8f183722-08d1-48b9-99cc-0558bfa2133f" isSubstitutable="false">
+            <actorMoniker Id="42d47232-50ba-4271-bed4-97fbdd0ea93d" LastKnownName="Admin" />
+            <elementDefinition Id="5a138ca9-e6ed-4f6a-b0db-7e3359b59a64" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="8afd59ab-a482-44db-a69b-27f950b33702" isDerived="false" sourceEndRoleName="Developper" targetEndRoleName="UC - Get  Dev. pages" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3661a09e-a646-4b74-9062-f5d6f22801aa" LastKnownName="UC - Get  Dev. pages" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1d813d69-b5c2-483c-91b4-71074ff7cbfe" name="Developper" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="05a2f2a1-bf7f-40ea-9153-2416213cbb07" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0fc37765-eaf8-4e90-bb27-b600982fd257" name="UC - Get  Dev. pages" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4470e290-ae3e-4908-ab43-28af9ce841bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1c2166d9-72d1-4157-b056-9df79085faaf" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="3661a09e-a646-4b74-9062-f5d6f22801aa" name="UC - Get  Dev. pages" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a64a9d16-1343-4e4d-b936-5a0fd91afb17" />
+        <additions>
+          <include Id="08aff79c-f215-4895-867c-9e526053676f">
+            <useCaseMoniker Id="4431a0cf-eb18-4cb6-aeef-4483bbadf84b" LastKnownName="UC - Authenticat" />
+            <elementDefinition Id="2e6dd64a-f010-4d53-b6fa-43b59ffec051" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="fc31a6b5-bf7a-4e93-8391-d314614f7891" LastKnownName="Subsystem-NorthWind" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="c615ec36-fcc4-4802-8157-55a72268bb4e" name="NorthWindModelingProject">
     <elementDefinition Id="c1146d6d-f7df-4695-a7f7-5ffb70dee040" />
+    <profileInstances>
+      <packageHasProfileInstances Id="c15065d9-02e8-4d46-b325-386656d47117">
+        <profileInstance Id="55af2308-c1a2-4cd1-855d-1ec81c56e7ed" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d8660851-c4d5-4f8a-ab69-ca6ff8dc0508">
+        <profileInstance Id="243af476-cef0-470a-8b6c-93baca2ae57a" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="afd131d5-a870-4176-b161-0ceda9871b32">
+        <profileInstance Id="a78ecaba-efc7-4015-a82a-bd998df88e9c" name="CSharpProfile">
+          <elementDefinition Id="9781e3ff-af43-414a-a2a8-2f28b4d6cc73" />
+        </profileInstance>
+        <elementDefinition Id="08635d40-97e4-4054-9412-4779f4cd50fc" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>

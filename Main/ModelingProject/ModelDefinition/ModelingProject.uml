@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
   dslVersion="1.0.0.0"
   Id="c1146d6d-f7df-4695-a7f7-5ffb70dee040"
   name="NorthWindModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -1150,14 +1150,14 @@
             Id="866a7bba-1165-4a31-8fa3-6bb88aae443b">
             <packageMoniker
               Id="a6f9a530-634f-4ed3-b0f6-51021dd9706b"
-              LastKnownName="ProGetWeb"
+              LastKnownName="NorthWind DataBase"
               LastKnownLocation="Package_1649.uml" />
           </dependency>
           <dependency
             Id="c8dc33c1-24ea-46b2-97bf-1318cb300831">
             <packageMoniker
               Id="b334b28e-7aa6-4ccb-a6b3-f1f249f2ca2c"
-              LastKnownName="ProGetWebUsers"
+              LastKnownName="NorthWindUsers DataBase"
               LastKnownLocation="Package_0821.uml" />
           </dependency>
         </suppliersInternal>
@@ -1217,7 +1217,7 @@
     <packageHasNamedElement>
       <packageMoniker
         Id="a6f9a530-634f-4ed3-b0f6-51021dd9706b"
-        LastKnownName="ProGetWeb"
+        LastKnownName="NorthWind DataBase"
         LastKnownLocation="Package_1649.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -1514,7 +1514,7 @@
     <packageHasNamedElement>
       <packageMoniker
         Id="b334b28e-7aa6-4ccb-a6b3-f1f249f2ca2c"
-        LastKnownName="ProGetWebUsers"
+        LastKnownName="NorthWindUsers DataBase"
         LastKnownLocation="Package_0821.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -2084,6 +2084,88 @@
         name="UC - Register"
         isAbstract="false"
         isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"
+            LastKnownName="Subsystem-NorthWind"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="22382378-5167-407e-b59e-45799862c8cd"
+        name="Developper"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="5a138ca9-e6ed-4f6a-b0db-7e3359b59a64"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="fca17908-1623-4d73-8ce8-187b35f81a6d"
+              LastKnownName="Admin"
+              LastKnownLocation="ModelingProject.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="1c2166d9-72d1-4157-b056-9df79085faaf"
+            isDerived="false"
+            sourceEndRoleName="Developper"
+            targetEndRoleName="UC - Get  Dev. pages"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a64a9d16-1343-4e4d-b936-5a0fd91afb17"
+              LastKnownName="UC - Get  Dev. pages"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="05a2f2a1-bf7f-40ea-9153-2416213cbb07"
+                  name="Developper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4470e290-ae3e-4908-ab43-28af9ce841bf"
+                  name="UC - Get  Dev. pages"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a64a9d16-1343-4e4d-b936-5a0fd91afb17"
+        name="UC - Get  Dev. pages"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="2e6dd64a-f010-4d53-b6fa-43b59ffec051">
+            <useCaseMoniker
+              Id="fa6a2338-08e6-437b-b12e-22b233b886b2"
+              LastKnownName="UC - Authenticat"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+        </additions>
         <subjects>
           <subsystemMoniker
             Id="4307f87c-d6e2-408d-b66b-73e5b2e7baa5"

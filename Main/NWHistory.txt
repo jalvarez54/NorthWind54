@@ -1,6 +1,37 @@
-===========================================
+=====
+TODO
+====================================
+* For now admin cannot change user password, he can only change his password.
+* Only the user can change his password.
+* No forget password.
+* Bootstrap alerts in Manage view.
+====================================
+Version 21 = V1.2.8.5361 {1.4.Alpha}
+====================================
+* ADD: HTML5 Videos
+* Refactoring
+====================================
+Version 20 = V1.2.7.5333 {1.3.Alpha}
+====================================
+* DELETE: Supress unused view and action
+* BUG: Fix bug for Category and Product "Details"
+* BUG: Don't retreive custom error with http://www.jow-alva.net/NorthWind/Product/Details/150, where 150 doesn't exist. ==> Corrected in Controllers.
+* BUG: User Name in Edit view must be read only ==> Corrected in Edit view change from EditFor to TextBoxFor.
+* BUG: No photo in Edit view with IE11
+====================================
+Version 19 = V1.2.6.5313 [1.2.Alpha]
+====================================
+* ADD: Link to Manage in Account/Edit.
+* TODO: For now admin cannot change user password, he can only change his password.
+* BUG: When admin create new user, username and password are filled with admin values.
+* MODIF: Rename in database, role Canedit to Dev.
+* ADD: Some code is protected with Anotation and other with IsUserInRole.
+* ADD: Some annotations [Authorize(Roles = "Admin,Dev")], [Authorize(Roles = "Admin")] and [Authorize(Roles = "Dev")].
+* ADD: Static method {public static bool IsUserInRole(string role)} in Mvc5Ef6WebApiDataFirstNthW.Models.IdentityManager.
+* ADD: Hide some _Layout menu parts with IsUserInRole.
+====================================
 Version 18 = V1.2.5.5302 [1.1.Alpha]
-===========================================
+====================================
 * ADD: Minor changes
 ** Print button in navbar
 :: <a href="#" onclick="window.print()"> in _Layout
@@ -10,29 +41,29 @@ Version 18 = V1.2.5.5302 [1.1.Alpha]
 :: public ActionResult IndexToPdf() in Category and Product controller
 :: view SortedProducts.cshtml
 * Mise à jour document technique
-===========================================
+====================================
 Version 17 = V1.2.5.5277 [1.0.Alpha]
-===========================================
+====================================
 * BUG: Correct routes bug in Administration Area.
 * MODIF: Integrate checkbox NoPhoto in model {EditUserViewModel} with {IsNoPhotoChecked} property, so removing {string[] noPhoto = HttpContext.Request.Form.GetValues("NoPhoto");}, replaced by {model.IsNoPhotoChecked}
 * ADD: Google map in contact.cshtml
-===========================================
+====================================
 Version 17 = V1.2.5.5268
-===========================================
+====================================
 * Refactoring and minor modifications code and design.
 * ADD: Image preview in Edit and Register Views.
-===========================================
+====================================
 Version 16 = V1.2.4.5265
-===========================================
+====================================
 * ADD: User can remove his photo
 ** Add checkbox (@Html.CheckBox("NoPhoto", false, new { id = "NoPhoto" } No photo if checked) in Edit.cshtml
 ** Add checkbox management in AccountController public async Task<ActionResult> Edit(EditUserViewModel model) method
 ** Revisite SavePhotoFileToDisk
 * ADD: Photo Height x Width limitation in ValidateFileAttribute 150 x 200 px
 * Commented some code
-===========================================
+====================================
 Version 15 = V1.2.3.5262
-===========================================
+====================================
 * MODIFICATIONS: Minor changes in WebApiProducts.html and WebApiCategories.html
 * CHANGE: Project properties ==> http://localhost:5555/NorthWind
 * LINKS: Usefull links for IISEXPRESS
@@ -43,9 +74,9 @@ To import see http://msdn.microsoft.com/en-us/library/vstudio/9ybhaktf%28v=vs.10
 * BUG: Correct bug in /helpers/Utils/SignalExceptionToElmahAndTrace static method.
 Delete line Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController mec = lui as Mvc5Ef6WebApiDataFirstNthW.Controllers.MyErrorController;
 * ADD: try/catch in /helpers/Utils/SavePhotoFileToDisk static method (non fatal handled exception ==> silent) if an error occur, a string.empty is returned no image will be showned to the user.
-===========================================
+====================================
 Version 14 = V1.2.3.5260
-===========================================
+====================================
 * BUG: In SavePhotoFileToDisk, when editing a user with photo, if we save, the user retreive BlankPhoto.jpg 
     ===> corrected in public static string SavePhotoFileToDisk
 * ADD: Add new user to "User" role in public async Task<ActionResult> Register(RegisterViewModel model)
@@ -66,18 +97,18 @@ if (photo != null)
                     return oldPhotoUrl;
                 }
             }
-===========================================
+====================================
 Version 13 = V1.2.3.5258
-===========================================
+====================================
 * REFACTORING: AccountController Edit and Register method
 ** ADD: /Helpers/Utils/SavePhotoFileToDisk static method
 ** CHANGE: Edit and Register calling model.PhotoUrl = Utils.SavePhotoFileToDisk(model.Photo, this);
 ** MODIF: AccountController DeleteConfirmed method to dont delete BlankPhoto.jpg
 ** CHANGE: HttpPostedFileWrapper Photo is no more [Required] in RegisterViewModel
 ** ADD: Default photo (BlankPhoto.jpg)
-===========================================
+====================================
 Version 12 = V1.2.2.5254
-===========================================
+====================================
 * ADD: Delete photo when user is removed
 ** MODIFIED: In AccountController DeleteConfirmed method
                 var user = Db.Users.First(u => u.UserName == id);
@@ -86,17 +117,17 @@ Version 12 = V1.2.2.5254
                 if (fi.Exists)
                     fi.Delete();
                 Db.Users.Remove(user);
-===========================================
+====================================
 Version 11 = V1.2.2.5253
-===========================================
+====================================
 * ADD: Validation DataAnnotation for upload file [ValidateFile]
     ADD: Class ValidateFileAttribute : ValidationAttribute
     ADD: Decoration [ValidateFile] for HttpPostedFileWrapper Photo preoperty in EditUserViewModel and RegisterUserViewModel
     SIMPLIFIED: Register(RegisterViewModel model)
     MODIFIED: <div class="form-group"> in Edit.cshtml and Register.cshtml
-===========================================
+====================================
 Version 10 = V1.2.1.5247
-===========================================
+====================================
 * ADD: User can change his profile
 ** CHANGE: Manage.cshtml title from "Gérer le compte" to "Changer le mot de passe"
 ** CHANGE: _LoginPartial.cshtml Action  link from "Manage"  to "Edit" and routeValues: from null to routeValues: new{id=User.Identity.GetUserName()}
@@ -110,17 +141,17 @@ Version 10 = V1.2.1.5247
                 {
                     return RedirectToAction("Edit", new { id = user.UserName });
                 }
-===========================================
+====================================
 Version 9 = V1.2.0.5229
-===========================================
+====================================
 * ADD: User photo
-===========================================
+====================================
 Version 8 = V1.1.0.5228
-===========================================
+====================================
 * UPDATE: Forgot to upgrade database in App_Data
-===========================================
+====================================
 Version 7 = V1.1.0.5220
-===========================================
+====================================
 * ADD: Users and roles management
     Source: [John Atten] http://www.codeproject.com/Articles/682113/Extending-Identity-Accounts-and-Implementing-Role
 * UPDATE: DT
@@ -128,18 +159,18 @@ Version 7 = V1.1.0.5220
     Initialisation Data Base.sql
     Reset Initialisation Data Base.sql
 * UPDATE: Locals, Staging, Test Database
-===========================================
+====================================
 Version 6 = V1.0.1.5214
-===========================================
+====================================
 * REFACTORING:
     MyRazorHelpers.cshtml
     AssemblyInfo
 ADD: webApiUri to prevent CORS in html WebApi static clients
 ADD: <rewrite> in IKOULA eb.config root to rewite jow-alva.net to ww.jow-alva.net (another possibility for CORS)
 UPDATE: DT MVC.vsdx, App_Diagrams
-===========================================
+====================================
 Version 5 = V1.0.0.0
-===========================================
+====================================
 * AA: WebApiAdress setting to suppot multiple web.config 
 * ADD: FileController.cs
 * ADD: Utils
@@ -166,9 +197,9 @@ Obtient ou définit une valeur booléenne qui détermine si des instances de proxy 
 If DbContext.Configuration.ProxyCreationEnabled is set to false, DbContext will not load child objects for some parent object unless Include method is called on parent object. Setting DbContext.Configuration.LazyLoadingEnabled to true or false will have no impact on its behaviours.
 
 If DbContext.Configuration.ProxyCreationEnabled is set to true, child objects will be loaded automatically, and DbContext.Configuration.LazyLoadingEnabled value will control when child objects are loaded.
-===========================================
+====================================
 Version 3
-===========================================
+====================================
 * Intégration des tables ASP.NET Identity dans la base NORTHWIND
     <add name="DefaultConnection" 
          connectionString="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\NORTHWND.MDF;
@@ -212,9 +243,9 @@ Ajout dans Global.asax
         {
             log4net.Config.XmlConfigurator.Configure();
 * Modification class MyTracer
-===========================================
+====================================
 Version 2
-===========================================
+====================================
 ** Custom Attributes
 * Ajout de public class MyRequestLogFilter : IActionFilter
 Traçage dans
@@ -246,9 +277,9 @@ Utilisation:
             }
             return View();
         }
-===========================================
+====================================
 Version 1
-===========================================
+====================================
 ** DataBase First: 
 * Ajout Modèle=NorthWind.edmx
 * Ajout Contrôleurs & Vues: Category et Product (CRUD)

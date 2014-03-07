@@ -35,6 +35,34 @@ namespace Mvc5Ef6WebApiDataFirstNthW.Models
 
     public class IdentityManager
     {
+        /// <summary>
+        /// http://stackoverflow.com/questions/20632626/correct-syntax-to-determine-user-identity-on-site-master-using-asp-net-identity
+        /// </summary>
+        /// <param name="role">String separeted by ","</param>
+        /// <returns>isUserInRole true if user is in one role at least</returns>
+        public static bool IsUserInRole(string role)
+        {
+            string[] roles = role.Split(',');
+            bool isUserInRole = false;
+            var um = new UserManager<ApplicationUser>(
+                new UserStore<ApplicationUser>(new ApplicationDbContext()));
+            foreach(string ro in roles)
+            {
+                if (System.Threading.Thread.CurrentPrincipal.Identity.IsAuthenticated)
+                {
+                    try
+                    {
+                        if((isUserInRole = um.IsInRole(System.Threading.Thread.CurrentPrincipal.Identity.GetUserId(), ro))) break;
+                    }
+                    catch (System.Exception ex)
+                    {
+                        // Handled exception catch code
+                        Helpers.Utils.SignalExceptionToElmahAndTrace(ex, null);
+                    }
+                }
+            }
+            return isUserInRole;
+        }
         public bool RoleExists(string name)
         {
             var rm = new RoleManager<IdentityRole>(

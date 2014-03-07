@@ -3,20 +3,22 @@
 @{
     ViewBag.Title = "Edit";
 }
+<p class="text-success">@ViewBag.StatusMessage</p>
 
 <h2>Edition du profil de @Html.DisplayFor(model => model.UserName)</h2>
 
-@using (Html.BeginForm("Edit", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("Edit", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
 {
-    @Html.AntiForgeryToken()
     <div class="form-horizontal">
+        @Html.AntiForgeryToken()
         <hr />
         @Html.ValidationSummary(true)
 
         <div class="form-group">
             @Html.LabelFor(model => model.UserName, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.UserName)
+                @*BUG: User Name in Edit view must be read only ==> Corrected in Edit view change from EditFor to TextBoxFor*@
+                @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", placeholder = "User name", @readonly = "readonly" })
                 @Html.ValidationMessageFor(model => model.UserName)
             </div>
         </div>
@@ -24,7 +26,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.FirstName, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.FirstName)
+                @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", placeholder = "First name" })
                 @Html.ValidationMessageFor(model => model.FirstName)
             </div>
         </div>
@@ -32,7 +34,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.LastName, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.LastName)
+                @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", placeholder = "Last name" })
                 @Html.ValidationMessageFor(model => model.LastName)
             </div>
         </div>
@@ -40,7 +42,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Email)
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder = "Email" })
                 @Html.ValidationMessageFor(model => model.Email)
             </div>
         </div>
@@ -48,7 +50,7 @@
         <div class="form-group">
             @Html.LabelFor(m => m.Photo, new { @class = "col-md-2 control-label" })
             <div class="col-md-10">
-                @Html.TextBoxFor(m => m.Photo, null, new { id = "FilePhoto", onchange = "readURL(this)", type = "file", title = "Search for file to add", @class = "input-file btn-warning" })
+                @Html.TextBoxFor(m => m.Photo, null, new { id = "FilePhoto", onchange = "readURL(this)", type = "file", title = "Search for file to add", @class = "btn btn-primary" })
                 @Html.ValidationMessageFor(m => m.Photo)<br />
                 <img id="blah" src="#" alt="" width="100" height="100" />
             </div>
@@ -68,6 +70,17 @@
                 @Html.LabelFor(m => m.IsNoPhotoChecked, new { @class = "col-md-2 control-label" })
                 <div class="col-md-10">
                     @Html.CheckBoxFor(model => model.IsNoPhotoChecked)
+                </div>
+            </div>
+        }
+        @*TODO: For now admin cannot reset user password, he can only change his password.*@
+        @*So we hide this to admin or dev as admin, when editing a user*@
+        @if (User.Identity.Name == Model.UserName)
+        {
+            <div class="form-group">
+                @Html.Label("Mot de passe", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.ActionLink("Changer votre mot de passe", "Manage", "Account", routeValues: null, htmlAttributes: new { title = "Administrer mot de passe" })
                 </div>
             </div>
         }

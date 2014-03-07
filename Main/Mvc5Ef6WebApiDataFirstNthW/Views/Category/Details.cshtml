@@ -30,13 +30,9 @@
             @Html.DisplayNameFor(model => model.Picture)
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Picture)
-        </dd>
+        <dd >
+            @MyRazorHelpers.TagImage("img-responsive", Model.Picture, Model.CategoryName, Model.CategoryName, "5");
 
+        </dd>
     </dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.CategoryID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

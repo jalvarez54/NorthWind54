@@ -138,6 +138,15 @@
   <data name="Contact" xml:space="preserve">
     <value>Contact</value>
   </data>
+  <data name="DetailsNotExist" xml:space="preserve">
+    <value>Details NotExist</value>
+  </data>
+  <data name="DetailsNull" xml:space="preserve">
+    <value>Details IdNull</value>
+  </data>
+  <data name="Dev" xml:space="preserve">
+    <value>Developper</value>
+  </data>
   <data name="Glimpse" xml:space="preserve">
     <value>Glimpse</value>
   </data>
@@ -146,6 +155,9 @@
   </data>
   <data name="HandledFatalException" xml:space="preserve">
     <value>Handled Fatal error</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="HelpAPI" xml:space="preserve">
     <value>Help API</value>
@@ -170,6 +182,9 @@
   </data>
   <data name="NoView" xml:space="preserve">
     <value>No View</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print page</value>
   </data>
   <data name="Products" xml:space="preserve">
     <value>Products</value>

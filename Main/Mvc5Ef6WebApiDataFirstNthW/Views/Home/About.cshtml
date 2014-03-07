@@ -1,44 +1,40 @@
 ﻿@{
     ViewBag.Title = "About";
 }
+<!-- Begin Modal -->
+@section scripts {
+    <script type="text/javascript">
+        $('#myModal').modal('show');
+    </script>
+}
+@Html.Partial("_ModalPartial")
+<!-- End Modal -->
+
 <h2>@ViewBag.Title.</h2>
+
 <h3>@ViewBag.Message</h3>
-
 <p>
-This project uses the popular database "NorthWind" as support for an example of using ASP. NET MVC5 in conjunction with Entity Frameword 6.
+This project uses the popular database "NorthWind" as support for an example of using ASP. NET MVC5 in conjunction with Entity Frameword 6.<br />
+Also implemented, WebApi2 and clients (console and Windows Forms).<br />
+Visio file (MVC.vsdx) explaning MVC pipeline.<br />
+Modeling project with some UMLclass and sequence diagrams.
 </p>
-<p>
-Also implemented, WebApi2 and clients (console and Windows Forms).
-</p>
-
-Visio file (MVC.vsdx) explaning MVC pipeline.
-
-Modelig project with some UMLclass and sequence diagrams.
 
 <h3>Technologies</h3>
+@MyRazorHelpers.Technos()
+
+<h3>TODO</h3>
 <ul>
-    <li>Visual Studio 2013 Ultimate</li>
-    <li>ASP.NET MVC5</li>
-    <li>Data base first</li>
-    <li>WebAPI2</li>
-    <li>Bootstrap 3</li>
-    <li>Razor</li>
-    <li>Razor helpers (Extension method & Declarative)</li>
-    <li>Annotation and filters (CustomFiltersAttributes)</li>
-    <li>Elmah, log4net, Glimpse and rotativa for pdf support</li>
-    <li>Styles for printing</li>
-    <li>System diagnostics trace</li>
-    <li>JQuery</li>
-    <li>Ajax</li>
-    <li>Internationalization (us for neutral, fr)</li>
-    <li>web.Config transformation</li>
-    <li>Error Handling</li>
-    <li>Helpers for tracing</li>
-    <li>Carousel</li>
-    <li>Area (Administration with page protected: user="admin" / pasword=p@ssword</li>
-    <li>ASP.NET Identity  (with extension and users management) </li>
-    <li>File upload for user photo and validation [ValidateFile]</li>
-    <li> Code snippets</li>
-    <li>Razor EditorTemplate</li>
-    <li>Googlemaps</li>
+    <li>
+        For now admin cannot reset user password, he can only change his password.
+    </li>
+    <li>
+        Only the user can change his password.
+    </li>
+    <li>
+        Forgot password is not implemented.
+    </li>
+    <li>
+        Bootstrap alerts in Manage view.
+    </li>
 </ul>
